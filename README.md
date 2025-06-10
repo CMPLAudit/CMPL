@@ -1,6 +1,6 @@
 # Conversational Manipulation For Privacy Leakage
 
-* [Benchmark](/benchmark) contains the scenario descriptions, datasets, and safety prompts used in this work/provided in the proposed benchmark.
+* [Benchmark](/benchmark) contains the scenario descriptions, datasets, and safety instructions used in this work/provided in the proposed benchmark.
 * [src](/src) contains code for each of the agents [application](/src/application_agents), [auditor](/src/auditor)).
     * [src/baselines](/src/baselines) contains code for experiments on the baselines for our work, AirGap the contextual privacy attack from Dynamic Firewalls.
 
