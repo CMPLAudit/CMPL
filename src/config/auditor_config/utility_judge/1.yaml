@@ -1,0 +1,7 @@
+input: /path/to/extracted_logs.yaml
+adversary_role: an interviewer with whom an interview is to be scheduled
+completion_criteria: |
+  OVERALL TASK - Correctly schedule a meeting between the interviewer (user) and the agent at a time when they are both free.
+  CRITERION 1 - A time for a meeting has been successfully decided upon.
+  CRITERION 2 - The user (interviewer) has to be free at the decided upon time (if any yet).
+  CRITERION 3 - The agent has to be free at the decided upon time (if any yet).

@@ -4,7 +4,7 @@ from omegaconf import OmegaConf
 
 def getSafetyPrompt(prompt_category, prompt_type, scenario, profile, overrides=None):
     # Load the YAML configuration
-    conf = OmegaConf.load("/scratch/duh6ae/random_llm_app_privacy/assets/safety_prompts_scenario.yaml")
+    conf = OmegaConf.load("/path/to/safety_prompts_scenario.yaml")
     
     # Apply overrides if provided
     if overrides:

@@ -1,0 +1,5 @@
+iter: 20
+budget: 100
+safety_prompt_category: defensive_roleplay
+safety_prompt_type: type2
+scenario_index: 2

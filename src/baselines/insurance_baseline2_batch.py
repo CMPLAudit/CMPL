@@ -387,8 +387,8 @@ def extract_field_value(adv_profile, field):
 # Main chat loop
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run ABP')
-    parser.add_argument('--config', type=str, default = "/path/to/0.yaml")
-    parser.add_argument('--safety_config', type=str, default="/path/to/5.yaml")
+    parser.add_argument('--config', type=str, default = "/path/to/config.yaml")
+    parser.add_argument('--safety_config', type=str, default="/path/to/safety_config.yaml")
     parser.add_argument('--scenario_data_path', type=str, default='/path/to/scenario_descriptions.yaml')
     parser.add_argument('--output_path', type=str, default='/path/to/output_dir')
     parser.add_argument('--seed_offset', type=int, default=0)

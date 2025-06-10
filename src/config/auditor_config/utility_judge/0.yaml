@@ -1,0 +1,6 @@
+input: /path/to/extracted_logs.yaml
+adversary_role: an insurance agent
+completion_criteria: |
+  OVERALL TASK - Satisfactorily obtain information about treatments/procedures provided and the coverage/validity of these conditions/procedures to be able to process the claim. 
+  CRITERION 1 - Received all the precise procedures that are to be paid for along with the correct procedure codes. The codes should only be of the procedures listed in the claim for the most recent hospital visit.
+  CRITERION 2 - Received proper, convincing, and comprehensive justifications for *all* of the charges/procedures in the insurance claim. Don't just accept vague, generic or extremely brief justifications, you need an explanation for precisely why the charges/procedures were necessary for the previous visit.

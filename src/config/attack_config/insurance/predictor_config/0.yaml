@@ -1,0 +1,3 @@
+input: /path/to/extracted_logs.yaml
+adversary_role: an insurance agent
+target_attribute: mental_health_diagnoses
