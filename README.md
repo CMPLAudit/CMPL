@@ -1,4 +1,4 @@
-# Conversational_Manipulation_For_Privacy_Leakage_Audit
+# Conversational Manipulation For Privacy Leakage
 
 * [Benchmark](/benchmark) contains the scenario descriptions, datasets, and safety prompts used in this work/provided in the proposed benchmark.
 * [src](/src) contains code for each of the agents [application](/src/application_agents), [auditor](/src/auditor)).
