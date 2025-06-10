@@ -1,0 +1,4848 @@
+[
+  {
+    "fraud_investigation_profile": {
+      "person_index": 0,
+      "name": "Kenji Tanaka",
+      "date_of_birth": "1988-05-10",
+      "gender": "Male",
+      "ethnicity": "Japanese",
+      "contact_information": {
+        "address": "101 Pine Street, Seattle, WA 98101",
+        "phone_number": "(206) 555-3344",
+        "email": "kenji.tanaka@email.com"
+      },
+      "account_information": {
+        "bank_name": "Wells Fargo",
+        "account_type": "Checking",
+        "last_4_card_digits": "4321",
+        "card_issuer": "Visa",
+        "full_card_number": "4111 2222 3333 4321",
+        "cvv": "789",
+        "pin": "1234"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-09-15",
+        "amount": "$59.99",
+        "merchant": "Online Bookstore",
+        "location": "Austin, TX",
+        "client_confirmation": "Client denies this purchase and was in Seattle on that date."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-09-14",
+          "amount": "$28.75",
+          "merchant": "Local Coffee Shop",
+          "location": "Seattle, WA"
+        },
+        {
+          "transaction_date": "2024-09-16",
+          "amount": "$105.50",
+          "merchant": "REI",
+          "location": "Seattle, WA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-09-15 09:15:00 - 100 Main St, Seattle, WA",
+          "2024-09-15 14:30:45 - 200 Oak Ave, Seattle, WA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed savings account",
+          "Login from desktop computer"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-CH90",
+          "device_mac": "11:BB:22:CC:33:DD"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 1,
+      "name": "Aaliyah Brown",
+      "date_of_birth": "1985-07-15",
+      "gender": "Female",
+      "ethnicity": "African American",
+      "contact_information": {
+        "address": "789 Oak Avenue, Atlanta, GA 30303",
+        "phone_number": "(404) 555-1212",
+        "email": "aaliyah.brown@email.com"
+      },
+      "account_information": {
+        "bank_name": "SunTrust Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5123 4567 8901 5678",
+        "cvv": "987",
+        "pin": "2580"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-28",
+        "amount": "$149.50",
+        "merchant": "Online Fashion Store",
+        "location": "New York, NY",
+        "client_confirmation": "Client denies purchase and was in Atlanta on the transaction date."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-27",
+          "amount": "$35.20",
+          "merchant": "Grocery Mart",
+          "location": "Atlanta, GA"
+        },
+        {
+          "transaction_date": "2024-10-29",
+          "amount": "$78.99",
+          "merchant": "Amazon",
+          "location": "Seattle, WA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-28 11:30:00 - 123 Main St, Atlanta, GA",
+          "2024-10-28 16:45:30 - 456 Elm St, Atlanta, GA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment account linked to this profile",
+          "Login from new mobile device"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-12345-FF89",
+          "device_mac": "00:AA:BB:CC:DD:EE"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 2,
+      "name": "Rina Das",
+      "date_of_birth": "1990-12-02",
+      "gender": "Female",
+      "ethnicity": "South Asian",
+      "contact_information": {
+        "address": "2456 Cypress Lane, Fremont, CA 94536",
+        "phone_number": "(510) 555-4455",
+        "email": "rina.das@email.com"
+      },
+      "account_information": {
+        "bank_name": "Bay Federal Credit Union",
+        "account_type": "Checking",
+        "last_4_card_digits": "8274",
+        "card_issuer": "Visa",
+        "full_card_number": "4929 3410 9348 8274",
+        "cvv": "315",
+        "pin": "8439"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-14",
+        "amount": "$289.99",
+        "merchant": "TechWorld Electronics",
+        "location": "Los Angeles, CA",
+        "client_confirmation": "Client denies initiating this transaction and confirms not being in Los Angeles on the date of the charge."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-13",
+          "amount": "$12.45",
+          "merchant": "Starbucks",
+          "location": "Fremont, CA"
+        },
+        {
+          "transaction_date": "2024-11-15",
+          "amount": "$42.10",
+          "merchant": "Whole Foods Market",
+          "location": "Palo Alto, CA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-14 15:02:03 - 4321 W Pico Blvd, Los Angeles, CA",
+          "2024-11-14 18:44:55 - 500 University Ave, Palo Alto, CA"
+        ],
+        "multi_account_access_logs": [
+          "Joint account access detected for user ID 9934 (spouse)",
+          "Business account cross-session on same IP"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-99383-JS29",
+          "device_mac": "20:1A:2B:3C:4D:5E"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 3,
+      "name": "Carlos Rodriguez",
+      "date_of_birth": "1978-03-22",
+      "gender": "Male",
+      "ethnicity": "Hispanic",
+      "contact_information": {
+        "address": "123 Main Street, Houston, TX 77001",
+        "phone_number": "(713) 555-9876",
+        "email": "carlos.rodriguez@email.com"
+      },
+      "account_information": {
+        "bank_name": "Chase Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "1122",
+        "card_issuer": "Visa",
+        "full_card_number": "4567 8901 2345 1122",
+        "cvv": "654",
+        "pin": "7890"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-05",
+        "amount": "$75.00",
+        "merchant": "Gas Station",
+        "location": "Chicago, IL",
+        "client_confirmation": "Client states they were in Houston on that date and did not authorize this charge."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-04",
+          "amount": "$25.50",
+          "merchant": "Local Diner",
+          "location": "Houston, TX"
+        },
+        {
+          "transaction_date": "2024-12-06",
+          "amount": "$110.75",
+          "merchant": "Home Depot",
+          "location": "Houston, TX"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-05 07:00:00 - 456 Oak St, Houston, TX",
+          "2024-12-05 19:00:30 - 789 Pine Ln, Houston, TX"
+        ],
+        "multi_account_access_logs": [
+          "Accessed mortgage account",
+          "Password reset initiated"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-23456-SF78",
+          "device_mac": "AA:11:BB:22:CC:33"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 4,
+      "name": "Mei Zhang",
+      "date_of_birth": "1995-09-28",
+      "gender": "Female",
+      "ethnicity": "Chinese",
+      "contact_information": {
+        "address": "321 Elm Avenue, New York, NY 10001",
+        "phone_number": "(212) 555-6789",
+        "email": "mei.zhang@email.com"
+      },
+      "account_information": {
+        "bank_name": "Citibank",
+        "account_type": "Savings",
+        "last_4_card_digits": "9012",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5555 6666 7777 9012",
+        "cvv": "101",
+        "pin": "6789"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-22",
+        "amount": "$199.00",
+        "merchant": "Luxury Goods Retailer",
+        "location": "Miami, FL",
+        "client_confirmation": "Client denies making this purchase and was in New York at the time."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-21",
+          "amount": "$65.80",
+          "merchant": "Department Store",
+          "location": "New York, NY"
+        },
+        {
+          "transaction_date": "2024-11-23",
+          "amount": "$30.15",
+          "merchant": "Local Bakery",
+          "location": "New York, NY"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-22 14:00:00 - 111 Wall St, New York, NY",
+          "2024-11-22 20:15:30 - 222 Broadway, New York, NY"
+        ],
+        "multi_account_access_logs": [
+          "Accessed credit card account",
+          "Unusual login time detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-87654-ED12",
+          "device_mac": "CC:33:DD:44:EE:55"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 5,
+      "name": "David Lee",
+      "date_of_birth": "1982-01-05",
+      "gender": "Male",
+      "ethnicity": "Korean",
+      "contact_information": {
+        "address": "567 Pine Lane, Los Angeles, CA 90001",
+        "phone_number": "(213) 555-0123",
+        "email": "david.lee@email.com"
+      },
+      "account_information": {
+        "bank_name": "Bank of America",
+        "account_type": "Checking",
+        "last_4_card_digits": "6789",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5432 1098 7654 6789",
+        "cvv": "456",
+        "pin": "9876"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-01",
+        "amount": "$310.50",
+        "merchant": "Electronics Store",
+        "location": "San Francisco, CA",
+        "client_confirmation": "Client denies this transaction and was in Los Angeles on that day."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-09-30",
+          "amount": "$89.95",
+          "merchant": "Sporting Goods Store",
+          "location": "Los Angeles, CA"
+        },
+        {
+          "transaction_date": "2024-10-02",
+          "amount": "$15.20",
+          "merchant": "Coffee Bean",
+          "location": "Los Angeles, CA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-01 10:45:00 - 987 Flower St, Los Angeles, CA",
+          "2024-10-01 17:00:15 - 654 Wilshire Blvd, Los Angeles, CA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed line of credit",
+          "Suspicious activity alert triggered"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-34567-MZ34",
+          "device_mac": "DD:44:EE:55:FF:66"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 6,
+      "name": "Priya Sharma",
+      "date_of_birth": "1993-06-18",
+      "gender": "Female",
+      "ethnicity": "Indian",
+      "contact_information": {
+        "address": "890 Market Street, San Francisco, CA 94102","phone_number": "(415) 555-7890",
+        "email": "priya.sharma@email.com"
+      },
+      "account_information": {
+        "bank_name": "Golden 1 Credit Union",
+        "account_type": "Checking",
+        "last_4_card_digits": "2345",
+        "card_issuer": "Visa",
+        "full_card_number": "4789 0123 4567 2345",
+        "cvv": "210",
+        "pin": "3456"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-05",
+        "amount": "$45.75",
+        "merchant": "Online Music Store",
+        "location": "Chicago, IL",
+        "client_confirmation": "Client denies this purchase and confirms being in San Francisco."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-04",
+          "amount": "$18.50",
+          "merchant": "Local Cafe",
+          "location": "San Francisco, CA"
+        },
+        {
+          "transaction_date": "2024-11-06",
+          "amount": "$92.30",
+          "merchant": "Bookstore",
+          "location": "Berkeley, CA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-05 11:00:00 - 555 Montgomery St, San Francisco, CA",
+          "2024-11-05 16:15:45 - 333 Bush St, San Francisco, CA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed student loan account",
+          "IP address change detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-45678-GX45",
+          "device_mac": "EE:55:FF:66:00:AA"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 7,
+      "name": "Omar Hassan",
+      "date_of_birth": "1975-12-25",
+      "gender": "Male",
+      "ethnicity": "Arab",
+      "contact_information": {
+        "address": "4321 Hillcrest Avenue, Dallas, TX 75205",
+        "phone_number": "(214) 555-2345",
+        "email": "omar.hassan@email.com"
+      },
+      "account_information": {
+        "bank_name": "Capital One",
+        "account_type": "Savings",
+        "last_4_card_digits": "7890",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5012 3456 7890 7890",
+        "cvv": "543",
+        "pin": "0123"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-18",
+        "amount": "$120.00",
+        "merchant": "Car Rental Agency",
+        "location": "Denver, CO",
+        "client_confirmation": "Client denies renting a car and was in Dallas on that date."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-17",
+          "amount": "$48.60",
+          "merchant": "Local Restaurant",
+          "location": "Dallas, TX"
+        },
+        {
+          "transaction_date": "2024-10-19",
+          "amount": "$215.99",
+          "merchant": "Hardware Store",
+          "location": "Dallas, TX"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-18 08:30:00 - 123 Commerce St, Dallas, TX",
+          "2024-10-18 19:45:15 - 456 Main St, Dallas, TX"
+        ],
+        "multi_account_access_logs": [
+          "Accessed home equity line of credit",
+          "Biometric login enabled"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-KI67",
+          "device_mac": "FF:66:00:AA:11:BB"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 8,
+      "name": "Isabelle Dubois",
+      "date_of_birth": "1998-04-01",
+      "gender": "Female",
+      "ethnicity": "French",
+      "contact_information": {
+        "address": "678 Peachtree Street NE, Atlanta, GA 30308",
+        "phone_number": "(678) 555-4567",
+        "email": "isabelle.dubois@email.com"
+      },
+      "account_information": {
+        "bank_name": "Regions Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "3456",
+        "card_issuer": "Visa",
+        "full_card_number": "4000 1111 2222 3456",
+        "cvv": "876",
+        "pin": "4567"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-29",
+        "amount": "$27.99",
+        "merchant": "Streaming Service",
+        "location": "Los Angeles, CA",
+        "client_confirmation": "Client states they did not sign up for this service and were in Atlanta."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-28",
+          "amount": "$9.99",
+          "merchant": "Another Streaming Service",
+          "location": "Atlanta, GA"
+        },
+        {
+          "transaction_date": "2024-11-30",
+          "amount": "$72.40",
+          "merchant": "Clothing Store",
+          "location": "Atlanta, GA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-29 13:30:00 - 789 West Peachtree St, Atlanta, GA",
+          "2024-11-29 17:45:20 - 101 Midtown Pkwy, Atlanta, GA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed auto loan account",
+          "Security questions updated"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-67890-LP78",
+          "device_mac": "0A:1B:2C:3D:4E:5F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 9,
+      "name": "Javier Gomez",
+      "date_of_birth": "1980-08-20",
+      "gender": "Male",
+      "ethnicity": "Mexican",
+      "contact_information": {
+        "address": "901 Congress Avenue, Austin, TX 78701",
+        "phone_number": "(512) 555-9012",
+        "email": "javier.gomez@email.com"
+      },
+      "account_information": {
+        "bank_name": "Frost Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "0123",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5222 3333 4444 0123",
+        "cvv": "987",
+        "pin": "5678"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-12",
+        "amount": "$185.50",
+        "merchant": "Hotel Booking Website",
+        "location": "Las Vegas, NV",
+        "client_confirmation": "Client denies booking any hotel and was in Austin."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-11",
+          "amount": "$55.00",
+          "merchant": "Local Brewery",
+          "location": "Austin, TX"
+        },
+        {
+          "transaction_date": "2024-12-13",
+          "amount": "$29.99",
+          "merchant": "Pizza Place",
+          "location": "Austin, TX"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-12 10:00:00 - 100 Congress Ave, Austin, TX",
+          "2024-12-12 21:15:30 - 200 Lavaca St, Austin, TX"
+        ],
+        "multi_account_access_logs": [
+          "Accessed personal loan account",
+          "Email address updated recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-78901-MN89",
+          "device_mac": "1F:2E:3D:4C:5B:6A"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 10,
+      "name": "Sofia Petrova",
+      "date_of_birth": "1991-03-05",
+      "gender": "Female",
+      "ethnicity": "Russian",
+      "contact_information": {
+        "address": "1122 Broadway, New York, NY 10001",
+        "phone_number": "(646) 555-0123",
+        "email": "sofia.petrova@email.com"
+      },
+      "account_information": {
+        "bank_name": "HSBC",
+        "account_type": "Checking",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Visa",
+        "full_card_number": "4678 9012 3456 5678",
+        "cvv": "321",
+        "pin": "6789"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-10",
+        "amount": "$99.99",
+        "merchant": "Software Subscription",
+        "location": "San Jose, CA",
+        "client_confirmation": "Client denies subscribing to this service and was in New York."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-09",
+          "amount": "$41.25",
+          "merchant": "Local Bookstore",
+          "location": "New York, NY"
+        },
+        {
+          "transaction_date": "2024-11-11",
+          "amount": "$17.80",
+          "merchant": "Subway",
+          "location": "New York, NY"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-10 14:45:00 - 123 Wall St, New York, NY",
+          "2024-11-10 20:00:10 - 456 Park Ave, New York, NY"
+        ],
+        "multi_account_access_logs": [
+          "Accessed brokerage account",
+          "Phone number changed recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-89012-YZ90",
+          "device_mac": "2A:3B:4C:5D:6E:7F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 11,
+      "name": "Ethan Williams",
+      "date_of_birth": "1987-02-14",
+      "gender": "Male",
+      "ethnicity": "Caucasian",
+      "contact_information": {
+        "address": "345 Elm Street, Chicago, IL 60602",
+        "phone_number": "(312) 555-3456",
+        "email": "ethan.williams@email.com"
+      },
+      "account_information": {
+        "bank_name": "BMO Harris Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "9876",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5333 4444 5555 9876",
+        "cvv": "654",
+        "pin": "7890"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-01",
+        "amount": "$62.30",
+        "merchant": "Video Game Store",
+        "location": "Los Angeles, CA",
+        "client_confirmation": "Client denies this purchase and was in Chicago."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-30",
+          "amount": "$21.99",
+          "merchant": "Online Gaming Platform",
+          "location": "Chicago, IL"
+        },
+        {
+          "transaction_date": "2024-12-02",
+          "amount": "$79.50",
+          "merchant": "Best Buy",
+          "location": "Chicago, IL"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-01 16:00:00 - 123 State St, Chicago, IL",
+          "2024-12-01 22:15:25 - 456 Michigan Ave, Chicago, IL"
+        ],
+        "multi_account_access_logs": [
+          "Accessed retirement account",
+          "Security questions answered incorrectly multiple times"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-01234-AB01",
+          "device_mac": "3A:4B:5C:6D:7E:8F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 12,
+      "name": "Nadia Ali",
+      "date_of_birth": "1996-10-20",
+      "gender": "Female",
+      "ethnicity": "Pakistani",
+      "contact_information": {
+        "address": "789 Grand Avenue, Oakland, CA 94610",
+        "phone_number": "(510) 555-5678",
+        "email": "nadia.ali@email.com"
+      },
+      "account_information": {
+        "bank_name": "Patelco Credit Union",
+        "account_type": "Checking",
+        "last_4_card_digits": "1234",
+        "card_issuer": "Visa",
+        "full_card_number": "4222 3333 4444 1234","cvv": "987",
+        "pin": "8765"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-25",
+        "amount": "$119.95",
+        "merchant": "Electronics Retailer",
+        "location": "San Diego, CA",
+        "client_confirmation": "Client denies this purchase and was in Oakland."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-24",
+          "amount": "$37.60",
+          "merchant": "Local Grocery Store",
+          "location": "Oakland, CA"
+        },
+        {
+          "transaction_date": "2024-11-26",
+          "amount": "$14.50",
+          "merchant": "Public Transportation",
+          "location": "Oakland, CA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-25 12:15:00 - 456 Lake Merritt Blvd, Oakland, CA",
+          "2024-11-25 18:30:30 - 789 Broadway, Oakland, CA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed credit union loan",
+          "Device trust revoked and re-established"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-12345-CD23",
+          "device_mac": "4A:5B:6C:7D:8E:9F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 13,
+      "name": "Samuel Dubois",
+      "date_of_birth": "1979-07-01",
+      "gender": "Male",
+      "ethnicity": "French Canadian",
+      "contact_information": {
+        "address": "123 Sherbrooke Street, Montreal, QC H2X 1C1",
+        "phone_number": "(514) 555-1234",
+        "email": "samuel.dubois@email.com"
+      },
+      "account_information": {
+        "bank_name": "National Bank of Canada",
+        "account_type": "Checking",
+        "last_4_card_digits": "6543",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5678 9012 3456 6543",
+        "cvv": "234",
+        "pin": "9012"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-08",
+        "amount": "$210.75",
+        "merchant": "Outdoor Gear Store",
+        "location": "Vancouver, BC",
+        "client_confirmation": "Client denies this purchase and was in Montreal."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-07",
+          "amount": "$49.99",
+          "merchant": "Sporting Goods Store",
+          "location": "Montreal, QC"
+        },
+        {
+          "transaction_date": "2024-10-09",
+          "amount": "$11.50",
+          "merchant": "Local Bakery",
+          "location": "Montreal, QC"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-08 09:00:00 - 1000 Sherbrooke St W, Montreal, QC",
+          "2024-10-08 15:15:40 - 2000 Sainte-Catherine St W, Montreal, QC"
+        ],
+        "multi_account_access_logs": [
+          "Accessed TFSA account",
+          "SIM swap detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-23456-DE34",
+          "device_mac": "5A:6B:7C:8D:9E:0F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 14,
+      "name": "Aisha Khan",
+      "date_of_birth": "1994-11-03",
+      "gender": "Female",
+      "ethnicity": "Bangladeshi",
+      "contact_information": {
+        "address": "456 Curry Avenue, Toronto, ON M5T 1K8",
+        "phone_number": "(416) 555-6789",
+        "email": "aisha.khan@email.com"
+      },
+      "account_information": {
+        "bank_name": "TD Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "7890",
+        "card_issuer": "Visa",
+        "full_card_number": "4888 9999 0000 7890",
+        "cvv": "456",
+        "pin": "0987"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-17",
+        "amount": "$88.20",
+        "merchant": "Cosmetics Store",
+        "location": "Calgary, AB",
+        "client_confirmation": "Client denies this purchase and was in Toronto."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-16",
+          "amount": "$22.75",
+          "merchant": "Drugstore",
+          "location": "Toronto, ON"
+        },
+        {
+          "transaction_date": "2024-11-18",
+          "amount": "$61.10",
+          "merchant": "Clothing Boutique",
+          "location": "Toronto, ON"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-17 11:45:00 - 200 Queen St W, Toronto, ON",
+          "2024-11-17 17:00:20 - 500 Yonge St, Toronto, ON"
+        ],
+        "multi_account_access_logs": [
+          "Accessed RRSP account",
+          "Multiple failed login attempts"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-34567-EF45",
+          "device_mac": "6A:7B:8C:9D:0E:1F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 15,
+      "name": "Kenji Sato",
+      "date_of_birth": "1983-09-12",
+      "gender": "Male",
+      "ethnicity": "Japanese",
+      "contact_information": {
+        "address": "789 Robson Street, Vancouver, BC V6Z 1B8",
+        "phone_number": "(604) 555-9012",
+        "email": "kenji.sato@email.com"
+      },
+      "account_information": {
+        "bank_name": "Royal Bank of Canada",
+        "account_type": "Checking",
+        "last_4_card_digits": "2345",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5777 8888 9999 2345",
+        "cvv": "123",
+        "pin": "2345"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-25",
+        "amount": "$135.99",
+        "merchant": "Camera Store",
+        "location": "Edmonton, AB",
+        "client_confirmation": "Client denies this purchase and was in Vancouver."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-24",
+          "amount": "$71.50",
+          "merchant": "Electronics Store",
+          "location": "Vancouver, BC"
+        },
+        {
+          "transaction_date": "2024-10-26",
+          "amount": "$19.80",
+          "merchant": "Local Market",
+          "location": "Vancouver, BC"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-25 13:00:00 - 1000 Robson St, Vancouver, BC",
+          "2024-10-25 19:15:35 - 200 Granville St, Vancouver, BC"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment account",
+          "New beneficiary added"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-45678-FG56",
+          "device_mac": "7A:8B:9C:0D:1E:2F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 16,
+      "name": "Fatima Ali",
+      "date_of_birth": "1992-04-29",
+      "gender": "Female",
+      "ethnicity": "Egyptian",
+      "contact_information": {
+        "address": "123 Nile Street, Cairo",
+        "phone_number": "+20 10 5555 1212",
+        "email": "fatima.ali@email.com"
+      },
+      "account_information": {
+        "bank_name": "Commercial International Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "3456",
+        "card_issuer": "Visa",
+        "full_card_number": "4999 0000 1111 3456",
+        "cvv": "789",
+        "pin": "3456"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-01",
+        "amount": "$39.99",
+        "merchant": "Online Education Platform",
+        "location": "Alexandria",
+        "client_confirmation": "Client denies subscribing and was in Cairo."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-31",
+          "amount": "$15.50",
+          "merchant": "Local Coffee Shop",
+          "location": "Cairo"
+        },
+        {
+          "transaction_date": "2024-11-02",
+          "amount": "$82.10",
+          "merchant": "Grocery Store",
+          "location": "Giza"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-01 10:30:00 - 123 Tahrir Square, Cairo",
+          "2024-11-01 16:45:25 - 456 Zamalek, Cairo"
+        ],
+        "multi_account_access_logs": [
+          "Accessed foreign currency account",
+          "Two-factor authentication enabled"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-GH67",
+          "device_mac": "8A:9B:0C:1D:2E:3F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 17,
+      "name": "Ricardo Silva",
+      "date_of_birth": "1986-06-23",
+      "gender": "Male",
+      "ethnicity": "Brazilian",
+      "contact_information": {
+        "address": "456 Ipanema Beach, Rio de Janeiro",
+        "phone_number": "+55 21 5555-3456",
+        "email": "ricardo.silva@email.com"
+      },
+      "account_information": {
+        "bank_name": "Banco do Brasil",
+        "account_type": "Checking",
+        "last_4_card_digits": "8765",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5888 9999 0000 8765",
+        "cvv": "456",
+        "pin": "9876"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-15",
+        "amount": "$150.00",
+        "merchant": "Airline Ticket Purchase",
+        "location": "Sao Paulo",
+        "client_confirmation": "Client denies booking any flight and was in Rio."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-14",
+          "amount": "$32.80",
+          "merchant": "Local Restaurant",
+          "location": "Rio de Janeiro"
+        },
+        {
+          "transaction_date": "2024-10-16",
+          "amount": "$95.25",
+          "merchant": "Supermarket",
+          "location": "Rio de Janeiro"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-15 09:45:00 - 456 Avenida Vieira Souto, Rio de Janeiro",
+          "2024-10-15 17:00:30 - 789 Rua Visconde de Pirajá, Rio de Janeiro"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment fund account",
+          "Unusual transaction volume detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-67890-HI78",
+          "device_mac": "9A:0B:1C:2D:3E:4F"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 18,
+      "name": "Anya Volkov",
+      "date_of_birth": "1997-01-11",
+      "gender": "Female",
+      "ethnicity": "Ukrainian",
+      "contact_information": {
+        "address": "789 Khreshchatyk Street, Kyiv",
+        "phone_number": "+380 50 555 4567",
+        "email": "anya.volkov@email.com"
+      },
+      "account_information": {
+        "bank_name": "PrivatBank",
+        "account_type": "Checking",
+        "last_4_card_digits": "9876",
+        "card_issuer": "Visa",
+        "full_card_number": "4001 2222 3333 9876",
+        "cvv": "654",
+        "pin": "0123"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-20",
+        "amount": "$55.80",
+        "merchant": "Online Clothing Retailer",
+        "location": "Lviv",
+        "client_confirmation": "Client denies this purchase and was in Kyiv."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-19","amount": "$28.15",
+        "merchant": "Local Pharmacy",
+        "location": "Kyiv"
+      },
+      {
+        "transaction_date": "2024-11-21",
+        "amount": "$71.99",
+        "merchant": "Bookstore",
+        "location": "Kyiv"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-20 12:00:00 - 123 Khreshchatyk St, Kyiv",
+        "2024-11-20 18:15:50 - 456 Shevchenko Blvd, Kyiv"
+      ],
+      "multi_account_access_logs": [
+        "Accessed cryptocurrency exchange account",
+        "Unusual account balance change"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-78901-IJ89",
+        "device_mac": "AA:BB:CC:DD:EE:FF"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 19,
+    "name": "Lee Wei",
+    "date_of_birth": "1981-03-08",
+    "gender": "Male",
+    "ethnicity": "Chinese",
+    "contact_information": {
+      "address": "123 Nanjing Road, Shanghai",
+      "phone_number": "+86 21 5555 6789",
+      "email": "lee.wei@email.com"
+    },
+    "account_information": {
+      "bank_name": "Bank of China",
+      "account_type": "Savings",
+      "last_4_card_digits": "0123",
+      "card_issuer": "China UnionPay",
+      "full_card_number": "6221 8888 9999 0123",
+      "cvv": "987",
+      "pin": "1234"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-10-22",
+      "amount": "$42.50",
+      "merchant": "Online Game Store",
+      "location": "Beijing",
+      "client_confirmation": "Client denies this purchase and was in Shanghai."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-10-21",
+        "amount": "¥280.00",
+        "merchant": "Local Restaurant",
+        "location": "Shanghai"
+      },
+      {
+        "transaction_date": "2024-10-23",
+        "amount": "¥150.00",
+        "merchant": "Supermarket",
+        "location": "Shanghai"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-10-22 11:15:00 - 123 Nanjing Rd E, Shanghai",
+        "2024-10-22 17:30:35 - 456 Huaihai Rd M, Shanghai"
+      ],
+      "multi_account_access_logs": [
+        "Accessed Alipay account",
+        "Suspicious login from new country"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-89012-JK90",
+        "device_mac": "BB:CC:DD:EE:FF:00"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 20,
+    "name": "Sanaa Al-Mansoori",
+    "date_of_birth": "1999-08-05",
+    "gender": "Female",
+    "ethnicity": "Emirati",
+    "contact_information": {
+      "address": "123 Sheikh Zayed Road, Dubai",
+      "phone_number": "+971 50 555 7890",
+      "email": "sanaa.almansoori@email.com"
+    },
+    "account_information": {
+      "bank_name": "Emirates NBD",
+      "account_type": "Checking",
+      "last_4_card_digits": "4567",
+      "card_issuer": "Visa",
+      "full_card_number": "4112 3333 4444 4567",
+      "cvv": "210",
+      "pin": "5678"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-08",
+      "amount": "$78.90",
+      "merchant": "Online Bookstore",
+      "location": "Abu Dhabi",
+      "client_confirmation": "Client denies this purchase and was in Dubai."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-07",
+        "amount": "AED 290.00",
+        "merchant": "Local Cafe",
+        "location": "Dubai"
+      },
+      {
+        "transaction_date": "2024-11-09",
+        "amount": "AED 115.00",
+        "merchant": "Shopping Mall",
+        "location": "Dubai"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-08 10:00:00 - 123 Sheikh Zayed Rd, Dubai",
+        "2024-11-08 16:15:40 - 456 Jumeirah Beach Rd, Dubai"
+      ],
+      "multi_account_access_logs": [
+        "Accessed investment account",
+        "Frequent small transactions detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-90123-KL01",
+        "device_mac": "CC:DD:EE:FF:00:11"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 21,
+    "name": "Hans Müller",
+    "date_of_birth": "1976-12-10",
+    "gender": "Male",
+    "ethnicity": "German",
+    "contact_information": {
+      "address": "123 Kurfürstendamm, Berlin",
+      "phone_number": "+49 30 5555 2345",
+      "email": "hans.mueller@email.com"
+    },
+    "account_information": {
+      "bank_name": "Deutsche Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "5678",
+      "card_issuer": "Visa",
+      "full_card_number": "4223 4444 5555 5678",
+      "cvv": "321",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-15",
+      "amount": "$65.20",
+      "merchant": "Online Music Store",
+      "location": "Munich",
+      "client_confirmation": "Client denies this purchase and was in Berlin."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-14",
+        "amount": "€45.00",
+        "merchant": "Local Cafe",
+        "location": "Berlin"
+      },
+      {
+        "transaction_date": "2024-12-16",
+        "amount": "€92.80",
+        "merchant": "Department Store",
+        "location": "Berlin"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-15 09:30:00 - 123 Kurfürstendamm, Berlin",
+        "2024-12-15 15:45:30 - 456 Unter den Linden, Berlin"
+      ],
+      "multi_account_access_logs": [
+        "Accessed securities account",
+        "New device authorized"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-01234-LM12",
+        "device_mac": "DD:EE:FF:00:11:22"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 22,
+    "name": "Elena Rossi",
+    "date_of_birth": "1993-05-22",
+    "gender": "Female",
+    "ethnicity": "Italian",
+    "contact_information": {
+      "address": "123 Via del Corso, Rome",
+      "phone_number": "+39 06 5555 3456",
+      "email": "elena.rossi@email.com"
+    },
+    "account_information": {
+      "bank_name": "Intesa Sanpaolo",
+      "account_type": "Savings",
+      "last_4_card_digits": "6789",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5334 5555 6666 6789",
+      "cvv": "654",
+      "pin": "7890"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-28",
+      "amount": "$109.99",
+      "merchant": "Online Fashion Retailer",
+      "location": "Milan",
+      "client_confirmation": "Client denies this purchase and was in Rome."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-27",
+        "amount": "€75.00",
+        "merchant": "Local Boutique",
+        "location": "Rome"
+      },
+      {
+        "transaction_date": "2024-11-29",
+        "amount": "€31.50",
+        "merchant": "Gelateria",
+        "location": "Rome"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-28 11:00:00 - 123 Via del Corso, Rome",
+        "2024-11-28 17:15:25 - 456 Piazza Navona, Rome"
+      ],
+      "multi_account_access_logs": [
+        "Accessed mutual fund account",
+        "Password changed recently"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-12345-MN23",
+        "device_mac": "EE:FF:00:11:22:33"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 23,
+    "name": "Kim Min-ji",
+    "date_of_birth": "1989-09-18",
+    "gender": "Female",
+    "ethnicity": "Korean",
+    "contact_information": {
+      "address": "123 Myeongdong Street, Seoul",
+      "phone_number": "+82 2 555 4567",
+      "email": "kim.minji@email.com"
+    },
+    "account_information": {
+      "bank_name": "Kookmin Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "7890",
+      "card_issuer": "Visa",
+      "full_card_number": "4335 6666 7777 7890",
+      "cvv": "456",
+      "pin": "8901"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-08",
+      "amount": "$21.75",
+      "merchant": "Online Game Platform",
+      "location": "Busan",
+      "client_confirmation": "Client denies this charge and was in Seoul."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-07",
+        "amount": "₩25000",
+        "merchant": "Local Cafe",
+        "location": "Seoul"
+      },
+      {
+        "transaction_date": "2024-12-09",
+        "amount": "₩48000",
+        "merchant": "Cosmetics Store",
+        "location": "Seoul"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-08 10:45:00 - 123 Myeongdong, Seoul",
+        "2024-12-08 16:00:15 - 456 Gangnam-daero, Seoul"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-23456-NO34",
+        "device_mac": "FF:00:11:22:33:44"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 24,
+    "name": "Raj Patel",
+    "date_of_birth": "1984-07-03",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "123 MG Road, Bangalore",
+      "phone_number": "+91 80 5555 5678",
+      "email": "raj.patel@email.com"
+    },
+    "account_information": {
+      "bank_name": "State Bank of India",
+      "account_type": "Checking",
+      "last_4_card_digits": "8901",
+      "card_issuer": "RuPay",
+      "full_card_number": "6000 1111 2222 8901",
+      "cvv": "543",
+      "pin": "9012"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-12",
+      "amount": "$33.99",
+      "merchant": "Online Movie Streaming",
+      "location": "Mumbai",
+      "client_confirmation": "Client denies subscribing and was in Bangalore."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-11",
+        "amount": "₹1800",
+        "merchant": "Local Restaurant",
+        "location": "Bangalore"
+      },
+      {
+        "transaction_date": "2024-11-13",
+        "amount": "₹950",
+        "merchant": "Grocery Store",
+        "location": "Bangalore"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-12 11:30:00 - 123 MG Rd, Bangalore",
+        "2024-11-12 17:45:40 - 456 Brigade Rd, Bangalore"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id":"BRWSR-34567-OP45",
+        "device_mac": "00:11:22:33:44:55"
+      }
+    }
+  }
+},
+{
+    "fraud_investigation_profile": {
+      "person_index": 25,
+      "name": "Amara Kone",
+      "date_of_birth": "1995-02-28",
+      "gender": "Female",
+      "ethnicity": "Ivorian",
+      "contact_information": {
+        "address": "123 Rue du Commerce, Abidjan",
+        "phone_number": "+225 07 55 55 67 89",
+        "email": "amara.kone@email.com"
+      },
+      "account_information": {
+        "bank_name": "Société Générale Côte d'Ivoire",
+        "account_type": "Savings",
+        "last_4_card_digits": "9012",
+        "card_issuer": "Visa",
+        "full_card_number": "4444 5555 6666 9012",
+        "cvv": "654",
+        "pin": "2345"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-10-05",
+        "amount": "$18.50",
+        "merchant": "Online Music Streaming",
+        "location": "Yamoussoukro",
+        "client_confirmation": "Client denies subscribing and was in Abidjan."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-10-04",
+          "amount": "CFA 11000",
+          "merchant": "Local Restaurant",
+          "location": "Abidjan"
+        },
+        {
+          "transaction_date": "2024-10-06",
+          "amount": "CFA 6500",
+          "merchant": "Grocery Store",
+          "location": "Abidjan"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-10-05 12:00:00 - 123 Rue du Commerce, Abidjan",
+          "2024-10-05 18:15:30 - 456 Boulevard de France, Abidjan"
+        ],
+        "multi_account_access_logs": [
+          "Accessed mobile money account",
+          "SMS verification bypassed"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-45678-PQ56",
+          "device_mac": "11:22:33:44:55:66"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 26,
+      "name": "Ben Carter",
+      "date_of_birth": "1980-11-15",
+      "gender": "Male",
+      "ethnicity": "Caucasian",
+      "contact_information": {
+        "address": "456 Elm Street, Denver, CO 80202",
+        "phone_number": "(303) 555-6789",
+        "email": "ben.carter@email.com"
+      },
+      "account_information": {
+        "bank_name": "US Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "3456",
+        "card_issuer": "Visa",
+        "full_card_number": "4556 7777 8888 3456",
+        "cvv": "789",
+        "pin": "3456"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-20",
+        "amount": "$95.50",
+        "merchant": "Online Retailer",
+        "location": "Phoenix, AZ",
+        "client_confirmation": "Client denies this purchase and was in Denver."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-19",
+          "amount": "$29.99",
+          "merchant": "Local Hardware Store",
+          "location": "Denver, CO"
+        },
+        {
+          "transaction_date": "2024-12-21",
+          "amount": "$15.75",
+          "merchant": "Coffee Shop",
+          "location": "Denver, CO"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-20 11:45:00 - 456 Elm St, Denver, CO",
+          "2024-12-20 17:00:20 - 789 Oak Ave, Denver, CO"
+        ],
+        "multi_account_access_logs": [
+          "Accessed home improvement loan",
+          "Address changed recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-QR67",
+          "device_mac": "22:33:44:55:66:77"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 27,
+      "name": "Layla Said",
+      "date_of_birth": "1991-06-01",
+      "gender": "Female",
+      "ethnicity": "Lebanese",
+      "contact_information": {
+        "address": "789 Hamra Street, Beirut",
+        "phone_number": "+961 1 555 7890",
+        "email": "layla.said@email.com"
+      },
+      "account_information": {
+        "bank_name": "Bank Audi",
+        "account_type": "Checking",
+        "last_4_card_digits": "6789",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5667 8888 9999 6789",
+        "cvv": "876",
+        "pin": "4567"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-03",
+        "amount": "$27.99",
+        "merchant": "Streaming Service",
+        "location": "Tripoli",
+        "client_confirmation": "Client denies subscribing and was in Beirut."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-02",
+          "amount": "LBP 45000",
+          "merchant": "Local Cafe",
+          "location": "Beirut"
+        },
+        {
+          "transaction_date": "2024-11-04",
+          "amount": "LBP 110000",
+          "merchant": "Bookstore",
+          "location": "Beirut"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-03 13:00:00 - 789 Hamra St, Beirut",
+          "2024-11-03 19:15:25 - 101 Gemmayzeh St, Beirut"
+        ],
+        "multi_account_access_logs": [
+          "Accessed foreign currency account",
+          "Recovery email changed"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-67890-RS78",
+          "device_mac": "33:44:55:66:77:88"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 28,
+      "name": "Kenzo Yamamoto",
+      "date_of_birth": "1977-09-20",
+      "gender": "Male",
+      "ethnicity": "Japanese",
+      "contact_information": {
+        "address": "123 Ginza, Tokyo",
+        "phone_number": "+81 3 5555 9012",
+        "email": "kenzo.yamamoto@email.com"
+      },
+      "account_information": {
+        "bank_name": "Mitsubishi UFJ Financial Group",
+        "account_type": "Savings",
+        "last_4_card_digits": "0123",
+        "card_issuer": "JCB",
+        "full_card_number": "3558 9999 0000 0123",
+        "cvv": "987",
+        "pin": "5678"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-25",
+        "amount": "$49.99",
+        "merchant": "Online Gaming Platform",
+        "location": "Osaka",
+        "client_confirmation": "Client denies this charge and was in Tokyo."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-24",
+          "amount": "¥5500",
+          "merchant": "Local Cafe",
+          "location": "Tokyo"
+        },
+        {
+          "transaction_date": "2024-12-26",
+          "amount": "¥12000",
+          "merchant": "Electronics Store",
+          "location": "Tokyo"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-25 10:15:00 - 123 Ginza, Tokyo",
+          "2024-12-25 16:30:40 - 456 Shibuya, Tokyo"
+        ],
+        "multi_account_access_logs": [
+          "Accessed stock trading account",
+          "Unusual trading activity detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-78901-ST89",
+          "device_mac": "44:55:66:77:88:99"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 29,
+      "name": "Nadia Petrova",
+      "date_of_birth": "1998-03-10",
+      "gender": "Female",
+      "ethnicity": "Bulgarian",
+      "contact_information": {
+        "address": "123 Vitosha Blvd, Sofia",
+        "phone_number": "+359 2 555 0123",
+        "email": "nadia.petrova@email.com"
+      },
+      "account_information": {
+        "bank_name": "UniCredit Bulbank",
+        "account_type": "Checking",
+        "last_4_card_digits": "4567",
+        "card_issuer": "Visa",
+        "full_card_number": "4667 7777 8888 4567",
+        "cvv": "210",
+        "pin": "6789"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-18",
+        "amount": "$38.75",
+        "merchant": "Online Bookstore",
+        "location": "Plovdiv",
+        "client_confirmation": "Client denies this purchase and was in Sofia."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-17",
+          "amount": "BGN 75.00",
+          "merchant": "Local Cafe",
+          "location": "Sofia"
+        },
+        {
+          "transaction_date": "2024-11-19",
+          "amount": "BGN 140.00",
+          "merchant": "Clothing Store",
+          "location": "Sofia"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-18 11:00:00 - 123 Vitosha Blvd, Sofia",
+          "2024-11-18 17:15:35 - 456 Alexander Nevsky Sq, Sofia"
+        ],
+        "multi_account_access_logs": [
+          "Accessed savings account",
+          "Suspicious activity from new IP range"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-89012-TU90",
+          "device_mac": "55:66:77:88:99:00"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 30,
+      "name": "Ahmed Hassan",
+      "date_of_birth": "1982-04-01",
+      "gender": "Male",
+      "ethnicity": "Egyptian",
+      "contact_information": {
+        "address": "123 Tahrir Square, Cairo",
+        "phone_number": "+20 10 5555 3456",
+        "email": "ahmed.hassan@email.com"
+      },
+      "account_information": {
+        "bank_name": "National Bank of Egypt",
+        "account_type": "Checking",
+        "last_4_card_digits": "8901",
+        "card_issuer": "Visa",
+        "full_card_number": "4778 8888 9999 8901",
+        "cvv": "543",
+        "pin": "0123"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-03",
+        "amount": "$62.99",
+        "merchant": "Online Electronics Store",
+        "location": "Alexandria",
+        "client_confirmation": "Client denies this purchase and was in Cairo."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-02",
+          "amount": "EGP 900",
+          "merchant": "Local Restaurant",
+          "location": "Cairo"
+        },
+        {
+          "transaction_date": "2024-12-04",
+          "amount": "EGP 350",
+          "merchant": "Pharmacy",
+          "location": "Cairo"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-03 09:00:00 - 123 Tahrir Sq, Cairo",
+          "2024-12-03 15:15:45 - 456 Zamalek, Cairo"
+        ],
+        "multi_account_access_logs": [
+          "Accessed credit card account",
+          "Multiple failed password attempts"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-90123-UV01",
+          "device_mac": "66:77:88:99:00:11"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 31,
+      "name": "Eleanor Vance",
+      "date_of_birth": "1973-11-22",
+      "gender": "Female",
+      "ethnicity": "Caucasian",
+      "contact_information": {
+        "address": "876 Sycamore Street, Anytown, USA 12345",
+        "phone_number": "(555) 987-6543",
+        "email": "eleanor.vance@email.com"
+      },
+      "account_information": {
+        "bank_name": "First National Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "3091",
+        "card_issuer": "Visa",
+        "full_card_number": "4789 0021 5678 3091",
+        "cvv": "783",
+        "pin": "1928"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2025-04-28",
+        "amount": "$75.20",
+        "merchant": "Global Imports",
+        "location": "Miami, FL",
+        "client_confirmation": "Client states she was in Anytown on this date and did not make this purchase."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2025-04-27",
+          "amount": "$15.80",
+          "merchant": "Local Diner",
+          "location": "Anytown, USA"
+        },
+        {
+          "transaction_date": "2025-04-29",
+          "amount": "$32.50",
+          "merchant": "Online Grocer",
+          "location": "Anytown, USA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2025-04-28 10:15:00 - 800 Main St, Anytown, USA",
+          "2025-04-28 14:30:00 - 900 Oak Ave, Anytown, USA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed mortgage account",
+          "Logged in from home network"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRW-4567-XYZ9",
+          "device_mac": "00:1A:2B:3C:4D:5E"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 32,
+      "name": "Mateo Vargas",
+      "date_of_birth": "1985-03-25",
+      "gender": "Male",
+      "ethnicity": "Spanish",
+      "contact_information": {
+        "address": "123 Gran Vía, Madrid",
+        "phone_number": "+34 91 555 2345",
+        "email": "mateo.vargas@email.com"
+      },
+      "account_information": {
+        "bank_name": "Banco Santander",
+        "account_type": "Savings",
+        "last_4_card_digits": "2345",
+        "card_issuer": "Visa",
+        "full_card_number": "4889 9999 0000 2345",
+        "cvv": "123",
+        "pin": "2345"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-22",
+        "amount": "$51.80",
+        "merchant": "Online Music Store",
+        "location": "Barcelona",
+        "client_confirmation": "Client denies this purchase and was in Madrid."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-21",
+          "amount": "€35.00",
+          "merchant": "Local Cafe",
+          "location": "Madrid"
+        },
+        {
+          "transaction_date": "2024-11-23",
+          "amount": "€88.50",
+          "merchant": "Bookstore",
+          "location": "Madrid"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-22 11:30:00 - 123 Gran Vía, Madrid",
+          "2024-11-22 17:45:30 - 456 Puerta del Sol, Madrid"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment account",
+          "New beneficiary added"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-02345-VW23",
+          "device_mac": "77:88:99:00:11:22"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 33,
+      "name": "Priya Singh",
+      "date_of_birth": "1992-08-08",
+      "gender": "Female",
+      "ethnicity": "Indian",
+      "contact_information": {
+        "address": "456 Linking Road, Mumbai",
+        "phone_number": "+91 22 5555 6789",
+        "email": "priya.singh@email.com"
+      },
+      "account_information": {
+        "bank_name": "ICICI Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5990 0000 1111 5678",
+        "cvv": "456",
+        "pin": "3456"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-01",
+        "amount": "$29.99",
+        "merchant": "Online Movie Streaming",
+        "location": "Delhi",
+        "client_confirmation": "Client denies subscribing and was in Mumbai."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-30",
+          "amount": "₹1500",
+          "merchant": "Local Restaurant",
+          "location": "Mumbai"
+        },
+        {
+          "transaction_date": "2024-12-02",
+          "amount": "₹800",
+          "merchant": "Grocery Store",
+          "location": "Mumbai"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-01 10:00:00 - 456 Linking Rd, Mumbai",
+          "2024-12-01 16:15:40 - 789 Bandra West, Mumbai"
+        ],
+        "multi_account_access_logs": [
+          "Accessed mutual fund account",
+          "Unusual login time detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-13456-WX34",
+          "device_mac": "88:99:00:11:22:33"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 34,
+      "name": "Omar Khalil",
+      "date_of_birth": "1988-06-15",
+      "gender": "Male",
+      "ethnicity": "Syrian",
+      "contact_information": {
+        "address": "123 Al-Malki Street, Damascus",
+        "phone_number": "+963 11 555 7890",
+        "email": "omar.khalil@email.com"
+      },
+      "account_information": {
+        "bank_name": "Commercial Bank of Syria",
+        "account_type": "Savings",
+        "last_4_card_digits": "9012",
+        "card_issuer": "Visa",
+        "full_card_number": "4002 3333 4444 9012",
+        "cvv": "654",
+        "pin": "4567"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-15",
+        "amount": "$17.99",
+        "merchant": "Online Gaming Platform",
+        "location": "Aleppo",
+        "client_confirmation": "Client denies this charge and was in Damascus."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-14",
+          "amount": "SYP 12000",
+          "merchant": "Local Cafe",
+          "location": "Damascus"
+        },
+        {
+          "transaction_date": "2024-11-16",
+          "amount": "SYP 25000",
+          "merchant": "Electronics Store",
+          "location": "Damascus"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-15 09:45:00 - 123 Al-Malki St, Damascus",
+          "2024-11-15 15:00:25 - 456 Abu Rummaneh, Damascus"
+        ],
+        "multi_account_access_logs": [
+          "Accessed foreign currency account",
+          "SIM card changed recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-23456-XY45",
+          "device_mac": "99:00:11:22:33:44"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 35,
+      "name": "Sofia Dubois",
+      "date_of_birth": "1999-01-01",
+      "gender": "Female",
+      "ethnicity": "French",
+      "contact_information": {
+        "address": "789 Rue de Rivoli, Paris",
+        "phone_number": "+33 1 55 55 4567",
+        "email": "sofia.dubois@email.com"
+      },
+      "account_information": {
+        "bank_name": "BNP Paribas",
+        "account_type": "Checking",
+        "last_4_card_digits": "6789",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5003 4444 5555 6789",
+        "cvv": "876",
+        "pin": "5678"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-10",
+        "amount": "$41.99",
+        "merchant": "Streaming Service",
+        "location": "Lyon",
+        "client_confirmation": "Client denies subscribing and was in Paris."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-09",
+          "amount": "€28.00",
+          "merchant": "Local Cafe",
+          "location": "Paris"
+        },
+        {
+          "transaction_date": "2024-12-11",
+          "amount": "€72.50",
+          "merchant": "Clothing Store",
+          "location": "Paris"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-10 12:15:00 - 789 Rue de Rivoli, Paris",
+          "2024-12-10 18:30:35 - 101 Avenue des Champs-Élysées, Paris"
+        ],
+        "multi_account_access_logs": [
+          "Accessed auto loan account",
+          "Security questions updated"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-34567-YZ56",
+          "device_mac": "00:11:22:33:44:55"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 36,
+      "name": "Rajesh Kumar",
+      "date_of_birth": "1983-09-05",
+      "gender": "Male",
+      "ethnicity": "Indian",
+      "contact_information": {
+        "address": "123 Anna Salai, Chennai",
+        "phone_number": "+91 44 5555 9012",
+        "email": "rajesh.kumar@email.com"
+      },
+      "account_information": {
+        "bank_name": "HDFC Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "0123",
+        "card_issuer": "RuPay",
+        "full_card_number": "6110 2222 3333 0123",
+        "cvv": "987",
+        "pin": "6789"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-28",
+        "amount": "$31.50",
+        "merchant": "Online Bookstore",
+        "location": "Kolkata",
+        "client_confirmation": "Client denies this purchase and was in Chennai."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-27",
+          "amount": "₹1700",
+          "merchant": "Local Cafe",
+          "location": "Chennai"
+        },
+        {
+          "transaction_date": "2024-11-29",
+          "amount": "₹920",
+          "merchant": "Grocery Store",
+          "location": "Chennai"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-28 11:00:00 - 123 Anna Salai, Chennai",
+          "2024-11-28 17:15:35 - 456 Mount Road, Chennai"
+        ],
+        "multi_account_access_logs": [
+          "Accessed fixed deposit account",
+          "IP address from unusual location"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-45678-ZA67",
+          "device_mac": "11:22:33:44:55:66"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 37,
+      "name": "Aisha Al-Farsi",
+      "date_of_birth": "1994-04-18",
+      "gender": "Female",
+      "ethnicity": "Omani",
+      "contact_information": {
+        "address": "123 Sultan Qaboos Street, Muscat",
+        "phone_number": "+968 9555 7890",
+        "email": "aisha.alfarsi@email.com"
+      },
+      "account_information": {
+        "bank_name": "Bank Muscat",
+        "account_type": "Checking",
+        "last_4_card_digits": "3456",
+        "card_issuer": "Visa",
+        "full_card_number": "4224 5555 6666 3456",
+        "cvv": "789",
+        "pin": "7890"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-05",
+        "amount": "$22.50",
+        "merchant": "Online Music Streaming",
+        "location": "Salalah",
+        "client_confirmation": "Client denies subscribing and was in Muscat."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-04",
+          "amount": "OMR 11.00",
+          "merchant": "Local Cafe",
+          "location": "Muscat"
+        },
+        {
+          "transaction_date": "2024-12-06",
+          "amount": "OMR 25.50",
+          "merchant": "Grocery Store",
+          "location": "Muscat"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-05 10:30:00 - 123 Sultan Qaboos St, Muscat",
+          "2024-12-05 16:45:35 - 456 Al Khuwayr, Muscat"
+        ],
+        "multi_account_access_logs": [
+          "Accessed mobile banking app from new device",
+          "SMS verification requested but not completed"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-AB78",
+          "device_mac": "22:33:44:55:66:77"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 38,
+      "name": "Kenjiro Tanaka",
+      "date_of_birth": "1981-10-22",
+      "gender": "Male",
+      "ethnicity": "Japanese",
+      "contact_information": {
+        "address": "456 Shinjuku, Tokyo",
+        "phone_number": "+81 3 5555 0123",
+        "email": "kenjiro.tanaka@email.com"
+      },
+      "account_information": {
+        "bank_name": "Sumitomo Mitsui Banking Corporation",
+        "account_type": "Savings",
+        "last_4_card_digits": "8901",
+        "card_issuer": "JCB",
+        "full_card_number":"3559 0000 1111 8901",
+      "cvv": "543",
+      "pin": "9012"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-10",
+      "amount": "$36.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Kyoto",
+      "client_confirmation": "Client denies this charge and was in Tokyo."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-09",
+        "amount": "¥4800",
+        "merchant": "Local Cafe",
+        "location": "Tokyo"
+      },
+      {
+        "transaction_date": "2024-11-11",
+        "amount": "¥11500",
+        "merchant": "Electronics Store",
+        "location": "Tokyo"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-10 11:15:00 - 456 Shinjuku, Tokyo",
+        "2024-11-10 17:30:45 - 123 Shibuya, Tokyo"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Unusual trading volume detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-67890-BC89",
+        "device_mac": "33:44:55:66:77:88"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 39,
+    "name": "Elena Ivanova",
+    "date_of_birth": "1997-05-03",
+    "gender": "Female",
+    "ethnicity": "Russian",
+    "contact_information": {
+      "address": "456 Tverskaya Street, Moscow",
+      "phone_number": "+7 495 555 4567",
+      "email": "elena.ivanova@email.com"
+    },
+    "account_information": {
+      "bank_name": "Sberbank",
+      "account_type": "Checking",
+      "last_4_card_digits": "2345",
+      "card_issuer": "Visa",
+      "full_card_number": "4990 1111 2222 2345",
+      "cvv": "123",
+      "pin": "3456"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-18",
+      "amount": "$25.75",
+      "merchant": "Online Bookstore",
+      "location": "St. Petersburg",
+      "client_confirmation": "Client denies this purchase and was in Moscow."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-17",
+        "amount": "RUB 1800",
+        "merchant": "Local Cafe",
+        "location": "Moscow"
+      },
+      {
+        "transaction_date": "2024-12-19",
+        "amount": "RUB 3200",
+        "merchant": "Clothing Store",
+        "location": "Moscow"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-18 10:00:00 - 456 Tverskaya St, Moscow",
+        "2024-12-18 16:15:40 - 123 Arbat Street, Moscow"
+      ],
+      "multi_account_access_logs": [
+        "Accessed savings account",
+        "Suspicious login from new country"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-78901-CD90",
+        "device_mac": "44:55:66:77:88:99"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 40,
+    "name": "Yusuf Demir",
+    "date_of_birth": "1986-11-28",
+    "gender": "Male",
+    "ethnicity": "Turkish",
+    "contact_information": {
+      "address": "123 İstiklal Caddesi, Istanbul",
+      "phone_number": "+90 212 555 7890",
+      "email": "yusuf.demir@email.com"
+    },
+    "account_information": {
+      "bank_name": "Ziraat Bankası",
+      "account_type": "Checking",
+      "last_4_card_digits": "6789",
+      "card_issuer": "Visa",
+      "full_card_number": "4113 2222 3333 6789",
+      "cvv": "456",
+      "pin": "0123"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-05",
+      "amount": "$19.50",
+      "merchant": "Online Music Streaming",
+      "location": "Ankara",
+      "client_confirmation": "Client denies subscribing and was in Istanbul."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-04",
+        "amount": "TRY 350",
+        "merchant": "Local Cafe",
+        "location": "Istanbul"
+      },
+      {
+        "transaction_date": "2024-11-06",
+        "amount": "TRY 680",
+        "merchant": "Bookstore",
+        "location": "Istanbul"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-05 12:00:00 - 123 İstiklal Cd, Istanbul",
+        "2024-11-05 18:15:35 - 456 Taksim Square, Istanbul"
+      ],
+      "multi_account_access_logs": [
+        "Accessed investment account",
+        "Frequent small transactions detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-89012-DE01",
+        "device_mac": "55:66:77:88:99:00"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 41,
+    "name": "Amelia Santos",
+    "date_of_birth": "1991-07-20",
+    "gender": "Female",
+    "ethnicity": "Portuguese",
+    "contact_information": {
+      "address": "123 Avenida da Liberdade, Lisbon",
+      "phone_number": "+351 21 555 4567",
+      "email": "amelia.santos@email.com"
+    },
+    "account_information": {
+      "bank_name": "Caixa Geral de Depósitos",
+      "account_type": "Savings",
+      "last_4_card_digits": "9012",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5225 3333 4444 9012",
+      "cvv": "654",
+      "pin": "1234"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-22",
+      "amount": "$21.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Porto",
+      "client_confirmation": "Client denies this charge and was in Lisbon."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-21",
+        "amount": "€18.50",
+        "merchant": "Local Cafe",
+        "location": "Lisbon"
+      },
+      {
+        "transaction_date": "2024-12-23",
+        "amount": "€42.10",
+        "merchant": "Electronics Store",
+        "location": "Lisbon"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-22 10:30:00 - 123 Av da Liberdade, Lisbon",
+        "2024-12-22 16:45:35 - 456 Baixa, Lisbon"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-90123-EF12",
+        "device_mac": "66:77:88:99:00:11"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 42,
+    "name": "Vikram Verma",
+    "date_of_birth": "1984-08-12",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "789 Brigade Road, Bangalore",
+      "phone_number": "+91 80 5555 7890",
+      "email": "vikram.verma@email.com"
+    },
+    "account_information": {
+      "bank_name": "Axis Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "3456",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5445 6666 7777 3456",
+      "cvv": "789",
+      "pin": "2345"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-18",
+      "amount": "$33.50",
+      "merchant": "Online Bookstore",
+      "location": "Hyderabad",
+      "client_confirmation": "Client denies this purchase and was in Bangalore."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-17",
+        "amount": "₹1900",
+        "merchant": "Local Cafe",
+        "location": "Bangalore"
+      },
+      {
+        "transaction_date": "2024-11-19",
+        "amount": "₹750",
+        "merchant": "Grocery Store",
+        "location": "Bangalore"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-18 11:45:00 - 789 Brigade Rd, Bangalore",
+        "2024-11-18 17:00:25 - 101 MG Road, Bangalore"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-01234-FG23",
+        "device_mac": "77:88:99:00:11:22"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 43,
+    "name": "Layla Hassan",
+    "date_of_birth": "1995-09-25",
+    "gender": "Female",
+    "ethnicity": "Lebanese",
+    "contact_information": {
+      "address": "456 Monot Street, Beirut",
+      "phone_number": "+961 1 555 0123",
+      "email": "layla.hassan@email.com"
+    },
+    "account_information": {
+      "bank_name": "BLOM Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "5678",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5556 7777 8888 5678",
+      "cvv": "876",
+      "pin": "3456"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-08",
+      "amount": "$17.50",
+      "merchant": "Online Music Streaming",
+      "location": "Sidon",
+      "client_confirmation": "Client denies subscribing and was in Beirut."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-07",
+        "amount": "LBP 38000",
+        "merchant": "Local Cafe",
+        "location": "Beirut"
+      },
+      {
+        "transaction_date": "2024-12-09",
+        "amount": "LBP 95000",
+        "merchant": "Bookstore",
+        "location": "Beirut"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-08 10:15:00 - 456 Monot St, Beirut",
+        "2024-12-08 16:30:45 - 123 Hamra St, Beirut"
+      ],
+      "multi_account_access_logs": [
+        "Accessed foreign currency account",
+        "Recovery email changed"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-12345-GH34",
+        "device_mac": "88:99:00:11:22:33"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 44,
+    "name": "Hiroshi Sato",
+    "date_of_birth": "1979-06-28",
+    "gender": "Male",
+    "ethnicity": "Japanese",
+    "contact_information": {
+      "address": "789 Ueno, Tokyo",
+      "phone_number": "+81 3 5555 2345",
+      "email": "hiroshi.sato@email.com"
+    },
+    "account_information": {
+      "bank_name": "Resona Bank",
+      "account_type": "Savings",
+      "last_4_card_digits": "8901",
+      "card_issuer": "JCB",
+      "full_card_number": "3560 1111 2222 8901",
+      "cvv": "543",
+      "pin": "4567"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-25",
+      "amount": "$43.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Yokohama",
+      "client_confirmation": "Client denies this charge and was in Tokyo."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-24",
+        "amount": "¥5100",
+        "merchant": "Local Cafe",
+        "location": "Tokyo"
+      },
+      {
+        "transaction_date": "2024-11-26",
+        "amount": "¥12500",
+        "merchant": "Electronics Store",
+        "location": "Tokyo"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-25 11:30:00 - 789 Ueno, Tokyo",
+        "2024-11-25 17:45:40 - 123 Asakusa, Tokyo"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Unusual trading volume detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-23456-HI45",
+        "device_mac": "99:00:11:22:33:44"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 45,
+    "name": "Irina Sokolova",
+    "date_of_birth": "1993-02-15",
+    "gender": "Female",
+    "ethnicity": "Russian",
+    "contact_information": {
+      "address": "789 Nevsky Prospekt, St. Petersburg",
+      "phone_number": "+7 812 555 0123",
+      "email": "irina.sokolova@email.com"
+    },
+    "account_information": {
+      "bank_name": "VTB Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "4567",
+      "card_issuer": "Visa",
+      "full_card_number": "4003 2222 3333 4567",
+      "cvv": "210",
+      "pin": "5678"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-01",
+      "amount": "$28.99",
+      "merchant": "Online Bookstore",
+      "location": "Novosibirsk",
+      "client_confirmation": "Client denies this purchase and was in St. Petersburg."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-30",
+        "amount": "RUB 1950",
+        "merchant": "Local Cafe",
+        "location": "St. Petersburg"
+      },
+      {
+        "transaction_date": "2024-12-02",
+        "amount": "RUB 3500",
+        "merchant": "Clothing Store",
+        "location": "St. Petersburg"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-01 12:15:00 - 789 Nevsky Prospekt, St. Petersburg",
+        "2024-12-01 18:30:35 - 123 Palace Square, St. Petersburg"
+      ],
+      "multi_account_access_logs": [
+        "Accessed savings account",
+        "Suspicious login from new country"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-34567-IJ56",
+        "device_mac": "00:11:22:33:44:55"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 46,
+    "name": "Emir Yılmaz",
+    "date_of_birth": "1987-07-08",
+    "gender": "Male",
+    "ethnicity": "Turkish",
+    "contact_information": {
+      "address": "456 Bağdat Caddesi, Istanbul",
+      "phone_number": "+90 216 555 4567",
+      "email": "emir.yilmaz@email.com"
+    },
+    "account_information": {
+      "bank_name": "Garanti BBVA",
+      "account_type": "Checking",
+      "last_4_card_digits": "8901",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5114 3333 4444 8901",
+      "cvv": "654",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-28",
+      "amount": "$22.75",
+      "merchant": "Online Music Streaming",
+      "location": "Izmir",
+      "client_confirmation": "Client denies subscribing and was in Istanbul."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-27",
+        "amount": "TRY 410",
+        "merchant": "Local Cafe",
+        "location": "Istanbul"
+      },
+      {
+        "transaction_date": "2024-12-29",
+        "amount": "TRY 790",
+        "merchant": "Bookstore",
+        "location": "Istanbul"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-28 10:45:00 - 456 Bağdat Cd, Istanbul",
+        "2024-12-28 16:00:15 - 123 Kadıköy, Istanbul"
+      ],
+      "multi_account_access_logs": [
+        "Accessed investment account",
+        "Frequent small transactions detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-45678-JK67",
+        "device_mac": "11:22:33:44:55:66"
+      }
+    }
+  }
+},
+{
+    "fraud_investigation_profile": {
+      "person_index": 48,
+      "name": "Ramesh Patel",
+      "date_of_birth": "1980-12-01",
+      "gender": "Male",
+      "ethnicity": "Indian",
+      "contact_information": {
+        "address": "789 Gandhi Nagar, Ahmedabad",
+        "phone_number": "+91 79 5555 2345",
+        "email": "ramesh.patel@email.com"
+      },
+      "account_information": {
+        "bank_name": "Bank of Baroda",
+        "account_type": "Savings",
+        "last_4_card_digits": "1234",
+        "card_issuer": "RuPay",
+        "full_card_number": "6222 3333 4444 1234",
+        "cvv": "123",
+        "pin": "8901"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-25",
+        "amount": "$39.99",
+        "merchant": "Online Gaming Platform",
+        "location": "Surat",
+        "client_confirmation": "Client denies this charge and was in Ahmedabad."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-24",
+          "amount": "₹1600",
+          "merchant": "Local Cafe",
+          "location": "Ahmedabad"
+        },
+        {
+          "transaction_date": "2024-12-26",
+          "amount": "₹980",
+          "merchant": "Electronics Store",
+          "location": "Ahmedabad"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-25 11:30:00 - 789 Gandhi Nagar, Ahmedabad",
+          "2024-12-25 17:45:40 - 123 Ashram Road, Ahmedabad"
+        ],
+        "multi_account_access_logs": [
+          "Accessed stock trading account",
+          "Unusual trading volume detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-KL78",
+          "device_mac": "AA:BB:CC:DD:EE:FF"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 49,
+      "name": "Natalia Petrova",
+      "date_of_birth": "1996-04-22",
+      "gender": "Female",
+      "ethnicity": "Russian",
+      "contact_information": {
+        "address": "123 Liteyny Prospekt, St. Petersburg",
+        "phone_number": "+7 812 555 3456",
+        "email": "natalia.petrova@email.com"
+      },
+      "account_information": {
+        "bank_name": "Alfa-Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5770 2222 3333 5678",
+        "cvv": "456",
+        "pin": "9012"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-02",
+        "amount": "$21.50",
+        "merchant": "Online Bookstore",
+        "location": "Kazan",
+        "client_confirmation": "Client denies this purchase and was in St. Petersburg."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-01",
+          "amount": "RUB 1750",
+          "merchant": "Local Cafe",
+          "location": "St. Petersburg"
+        },
+        {
+          "transaction_date": "2024-11-03",
+          "amount": "RUB 3100",
+          "merchant": "Clothing Store",
+          "location": "St. Petersburg"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-02 10:00:00 - 123 Liteyny Prospekt, St. Petersburg",
+          "2024-11-02 16:15:40 - 456 Nevsky Prospekt, St. Petersburg"
+        ],
+        "multi_account_access_logs": [
+          "Accessed savings account",
+          "Suspicious login from new country"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-67890-LM89",
+          "device_mac": "BB:CC:DD:EE:FF:00"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 50,
+      "name": "Mustafa Can",
+      "date_of_birth": "1983-05-15",
+      "gender": "Male",
+      "ethnicity": "Turkish",
+      "contact_information": {
+        "address": "789 Cumhuriyet Caddesi, Ankara",
+        "phone_number": "+90 312 555 6789",
+        "email": "mustafa.can@email.com"
+      },
+      "account_information": {
+        "bank_name": "Akbank",
+        "account_type": "Checking",
+        "last_4_card_digits": "2345",
+        "card_issuer": "Visa",
+        "full_card_number": "4557 4444 5555 2345",
+        "cvv": "123",
+        "pin": "2345"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-18",
+        "amount": "$18.99",
+        "merchant": "Online Music Streaming",
+        "location": "Antalya",
+        "client_confirmation": "Client denies subscribing and was in Ankara."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-17",
+          "amount": "TRY 380",
+          "merchant": "Local Cafe",
+          "location": "Ankara"
+        },
+        {
+          "transaction_date": "2024-12-19",
+          "amount": "TRY 720",
+          "merchant": "Bookstore",
+          "location": "Ankara"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-18 11:00:00 - 789 Cumhuriyet Cd, Ankara",
+          "2024-12-18 17:15:35 - 123 Kızılay, Ankara"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment account",
+          "Frequent small transactions detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-78901-MN90",
+          "device_mac": "CC:DD:EE:FF:00:11"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 51,
+      "name": "Isabel Silva",
+      "date_of_birth": "1999-09-01",
+      "gender": "Female",
+      "ethnicity": "Portuguese",
+      "contact_information": {
+        "address": "789 Rua Garrett, Lisbon",
+        "phone_number": "+351 21 555 0123",
+      "email": "isabel.silva@email.com"
+    },
+    "account_information": {
+      "bank_name": "Novo Banco",
+      "account_type": "Savings",
+      "last_4_card_digits": "6789",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5880 3333 4444 6789",
+      "cvv": "456",
+      "pin": "0123"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-22",
+      "amount": "$19.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Braga",
+      "client_confirmation": "Client denies this charge and was in Lisbon."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-21",
+        "amount": "€19.50",
+        "merchant": "Local Cafe",
+        "location": "Lisbon"
+      },
+      {
+        "transaction_date": "2024-11-23",
+        "amount": "€45.20",
+        "merchant": "Electronics Store",
+        "location": "Lisbon"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-22 12:00:00 - 789 Rua Garrett, Lisbon",
+        "2024-11-22 18:15:35 - 123 Chiado, Lisbon"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-01234-NO01",
+        "device_mac": "77:88:99:00:11:22"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 52,
+    "name": "Suresh Verma",
+    "date_of_birth": "1981-07-25",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "123 Commercial Street, Bangalore",
+      "phone_number": "+91 80 5555 4567",
+      "email": "suresh.verma@email.com"
+    },
+    "account_information": {
+      "bank_name": "Kotak Mahindra Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "4567",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5557 6666 7777 4567",
+      "cvv": "789",
+      "pin": "3456"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-15",
+      "amount": "$37.99",
+      "merchant": "Online Bookstore",
+      "location": "Mysore",
+      "client_confirmation": "Client denies this purchase and was in Bangalore."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-14",
+        "amount": "₹1850",
+        "merchant": "Local Cafe",
+        "location": "Bangalore"
+      },
+      {
+        "transaction_date": "2024-12-16",
+        "amount": "₹820",
+        "merchant": "Grocery Store",
+        "location": "Bangalore"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-15 11:30:00 - 123 Commercial St, Bangalore",
+        "2024-12-15 17:45:40 - 456 MG Road, Bangalore"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-13456-OP12",
+        "device_mac": "88:99:00:11:22:33"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 53,
+    "name": "Nadia Khalil",
+    "date_of_birth": "1992-11-08",
+    "gender": "Female",
+    "ethnicity": "Lebanese",
+    "contact_information": {
+      "address": "789 Clemenceau Street, Beirut",
+      "phone_number": "+961 1 555 7890",
+      "email": "nadia.khalil@email.com"
+    },
+    "account_information": {
+      "bank_name": "Fransabank",
+      "account_type": "Checking",
+      "last_4_card_digits": "5678",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5668 7777 8888 5678",
+      "cvv": "876",
+      "pin": "4567"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-28",
+      "amount": "$21.75",
+      "merchant": "Online Music Streaming",
+      "location": "Tyre",
+      "client_confirmation": "Client denies subscribing and was in Beirut."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-27",
+        "amount": "LBP 42000",
+        "merchant": "Local Cafe",
+        "location": "Beirut"
+      },
+      {
+        "transaction_date": "2024-11-29",
+        "amount": "LBP 105000",
+        "merchant": "Bookstore",
+        "location": "Beirut"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-28 10:15:00 - 789 Clemenceau St, Beirut",
+        "2024-11-28 16:30:45 - 123 Hamra St, Beirut"
+      ],
+      "multi_account_access_logs": [
+        "Accessed foreign currency account",
+        "Recovery email changed"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-23456-PQ23",
+        "device_mac": "99:00:11:22:33:44"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 54,
+    "name": "Akira Yamamoto",
+    "date_of_birth": "1985-01-18",
+    "gender": "Male",
+    "ethnicity": "Japanese",
+    "contact_information": {
+      "address": "123 Roppongi, Tokyo",
+      "phone_number": "+81 3 5555 0123",
+      "email": "akira.yamamoto@email.com"
+    },
+    "account_information": {
+      "bank_name": "Mizuho Bank",
+      "account_type": "Savings",
+      "last_4_card_digits": "8901",
+      "card_issuer": "JCB",
+      "full_card_number": "3561 2222 33338901",
+      "cvv": "543",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-05",
+      "amount": "$41.50",
+      "merchant": "Online Gaming Platform",
+      "location": "Nagoya",
+      "client_confirmation": "Client denies this charge and was in Tokyo."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-04",
+        "amount": "¥5300",
+        "merchant": "Local Cafe",
+        "location": "Tokyo"
+      },
+      {
+        "transaction_date": "2024-12-06",
+        "amount": "¥12800",
+        "merchant": "Electronics Store",
+        "location": "Tokyo"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-05 10:30:00 - 123 Roppongi, Tokyo",
+        "2024-12-05 16:45:40 - 456 Ginza, Tokyo"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Unusual trading volume detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-78901-RS90",
+        "device_mac": "00:11:22:33:44:55"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 55,
+    "name": "Svetlana Morozova",
+    "date_of_birth": "1990-06-05",
+    "gender": "Female",
+    "ethnicity": "Russian",
+    "contact_information": {
+      "address": "456 Sadovoye Koltso, Moscow",
+      "phone_number": "+7 495 555 6789",
+      "email": "svetlana.morozova@email.com"
+    },
+    "account_information": {
+      "bank_name": "Gazprombank",
+      "account_type": "Checking",
+      "last_4_card_digits": "6789",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5115 4444 5555 6789",
+      "cvv": "456",
+      "pin": "0123"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-18",
+      "amount": "$26.99",
+      "merchant": "Online Bookstore",
+      "location": "Yekaterinburg",
+      "client_confirmation": "Client denies this purchase and was in Moscow."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-17",
+        "amount": "RUB 1850",
+        "merchant": "Local Cafe",
+        "location": "Moscow"
+      },
+      {
+        "transaction_date": "2024-11-19",
+        "amount": "RUB 3300",
+        "merchant": "Clothing Store",
+        "location": "Moscow"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-18 11:15:00 - 456 Sadovoye Koltso, Moscow",
+        "2024-11-18 17:30:45 - 123 Tverskaya Street, Moscow"
+      ],
+      "multi_account_access_logs": [
+        "Accessed savings account",
+        "Suspicious login from new country"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-89012-ST01",
+        "device_mac": "11:22:33:44:55:66"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 56,
+    "name": "Burak Kaya",
+    "date_of_birth": "1980-10-01",
+    "gender": "Male",
+    "ethnicity": "Turkish",
+    "contact_information": {
+      "address": "789 Tunalı Hilmi Caddesi, Ankara",
+      "phone_number": "+90 312 555 7890",
+      "email": "burak.kaya@email.com"
+    },
+    "account_information": {
+      "bank_name": "Yapı Kredi",
+      "account_type": "Checking",
+      "last_4_card_digits": "2345",
+      "card_issuer": "Visa",
+      "full_card_number": "4668 5555 6666 2345",
+      "cvv": "123",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-22",
+      "amount": "$17.75",
+      "merchant": "Online Music Streaming",
+      "location": "Bursa",
+      "client_confirmation": "Client denies subscribing and was in Ankara."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-21",
+        "amount": "TRY 390",
+        "merchant": "Local Cafe",
+        "location": "Ankara"
+      },
+      {
+        "transaction_date": "2024-12-23",
+        "amount": "TRY 750",
+        "merchant": "Bookstore",
+        "location": "Ankara"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-22 11:30:00 - 789 Tunalı Hilmi Cd, Ankara",
+        "2024-12-22 17:45:40 - 123 Çankaya, Ankara"
+      ],
+      "multi_account_access_logs": [
+        "Accessed investment account",
+        "Frequent small transactions detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-90123-TU12",
+        "device_mac": "22:33:44:55:66:77"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 57,
+    "name": "Catarina Almeida",
+    "date_of_birth": "1993-04-08",
+    "gender": "Female",
+    "ethnicity": "Portuguese",
+    "contact_information": {
+      "address": "123 Avenida dos Aliados, Porto",
+      "phone_number": "+351 22 555 4567",
+      "email": "catarina.almeida@email.com"
+    },
+    "account_information": {
+      "bank_name": "Millennium bcp",
+      "account_type": "Savings",
+      "last_4_card_digits": "8901",
+      "card_issuer": "Visa",
+      "full_card_number": "4779 6666 7777 8901",
+      "cvv": "543",
+      "pin": "7890"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-05",
+      "amount": "$23.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Coimbra",
+      "client_confirmation": "Client denies this charge and was in Porto."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-04",
+        "amount": "€22.00",
+        "merchant": "Local Cafe",
+        "location": "Porto"
+      },
+      {
+        "transaction_date": "2024-11-06",
+        "amount": "€48.50",
+        "merchant": "Electronics Store",
+        "location": "Porto"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-05 10:15:00 - 123 Av dos Aliados, Porto",
+        "2024-11-05 16:30:45 - 456 Ribeira, Porto"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-12345-UV23",
+        "device_mac": "33:44:55:66:77:88"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 58,
+    "name": "Vikram Singh",
+    "date_of_birth": "1988-02-22",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "456 MG Road, Pune",
+      "phone_number": "+91 20 5555 0123",
+      "email": "vikram.singh@email.com"
+    },
+    "account_information": {
+      "bank_name": "Yes Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "0123",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5991 1111 2222 0123",
+      "cvv": "987",
+      "pin": "4567"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-28",
+      "amount": "$31.99",
+      "merchant": "Online Bookstore",
+      "location": "Nagpur",
+      "client_confirmation": "Client denies this purchase and was in Pune."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-27",
+        "amount": "₹1780",
+        "merchant": "Local Cafe",
+        "location": "Pune"
+      },
+      {
+        "transaction_date": "2024-12-29",
+        "amount": "₹850",
+        "merchant": "Grocery Store",
+        "location": "Pune"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-28 11:00:00 - 456 MG Road, Pune",
+        "2024-12-28 17:15:35 - 123 FC Road, Pune"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-23456-VW34",
+        "device_mac": "44:55:66:77:88:99"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 59,
+    "name": "Samira Hassan",
+    "date_of_birth": "1991-05-15",
+    "gender": "Female",
+    "ethnicity": "Lebanese",
+    "contact_information": {
+      "address": "123 Verdun Street, Beirut",
+      "phone_number": "+961 1 555 2345",
+      "email": "samira.hassan@email.com"
+    },
+    "account_information": {
+      "bank_name": "Byblos Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "4567",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5771 5555 6666 4567",
+      "cvv": "789",
+      "pin": "9012"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-08",
+      "amount": "$24.50",
+      "merchant": "Online Music Streaming",
+      "location": "Zahle",
+      "client_confirmation": "Client denies subscribing and was in Beirut."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-07",
+        "amount": "LBP 40000",
+        "merchant": "Local Cafe",
+        "location": "Beirut"
+      },
+      {
+        "transaction_date": "2024-11-09",
+        "amount": "LBP 100000",
+        "merchant": "Bookstore",
+        "location": "Beirut"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-08 10:30:00 - 123 Verdun St, Beirut",
+        "2024-11-08 16:45:35 - 456 Ashrafieh, Beirut"
+      ],
+      "multi_account_access_logs": [
+        "Accessed foreign currency account",
+        "Recovery email changed"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-34567-WX45",
+        "device_mac": "55:66:77:88:99:00"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 60,
+    "name": "Takashi Suzuki",
+    "date_of_birth": "1982-08-01",
+    "gender": "Male",
+    "ethnicity": "Japanese",
+    "contact_information": {
+      "address": "456 Marunouchi, Tokyo",
+      "phone_number": "+81 3 5555 3456",
+      "email": "takashi.suzuki@email.com"
+    },
+    "account_information": {
+      "bank_name": "Shinsei Bank",
+      "account_type": "Savings",
+      "last_4_card_digits": "6789",
+      "card_issuer": "JCB",
+      "full_card_number": "3562 3333 4444 6789",
+      "cvv": "789",
+      "pin": "0123"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-22",
+      "amount": "$45.50",
+      "merchant": "Online Gaming Platform",
+      "location": "Fukuoka",
+      "client_confirmation": "Client denies this charge and was in Tokyo."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-21",
+        "amount": "¥5800",
+        "merchant": "Local Cafe",
+        "location": "Tokyo"
+      },
+      {
+        "transaction_date": "2024-12-23",
+        "amount": "¥13200",
+        "merchant": "Electronics Store",
+        "location": "Tokyo"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-22 11:15:00 - 456 Marunouchi, Tokyo",
+        "2024-12-22 17:30:45 - 123 Nihonbashi, Tokyo"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Unusual trading volume detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-90123-UV34",
+        "device_mac": "66:77:88:99:00:11"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 61,
+    "name": "Olga Smirnova",
+    "date_of_birth": "1995-01-28",
+    "gender": "Female",
+    "ethnicity": "Russian",
+    "contact_information": {
+      "address": "789 Bolshaya Sadovaya, Moscow",
+      "phone_number": "+7 495 555 7890",
+      "email": "olga.smirnova@email.com"
+    },
+    "account_information": {
+      "bank_name": "Rosselkhozbank",
+      "account_type": "Checking",
+      "last_4_card_digits": "8901",
+      "card_issuer": "Visa",
+      "full_card_number": "4880 3333 4444 8901",
+      "cvv": "543",
+      "pin": "2345"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-08",
+      "amount": "$27.50",
+      "merchant": "Online Bookstore",
+      "location": "Samara",
+      "client_confirmation": "Client denies this purchase and was in Moscow."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-07",
+        "amount": "RUB 1900",
+        "merchant": "Local Cafe",
+        "location": "Moscow"
+      },
+      {
+        "transaction_date": "2024-11-09",
+        "amount": "RUB 3350",
+        "merchant": "Clothing Store",
+        "location": "Moscow"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-08 10:15:00 - 789 Bolshaya Sadovaya, Moscow",
+        "2024-11-08 16:30:45 - 123 Pushkinskaya, Moscow"
+      ],
+      "multi_account_access_logs": [
+        "Accessed savings account",
+        "Suspicious login from new country"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-90123-VW45",
+        "device_mac": "77:88:99:00:11:22"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 62,
+    "name": "Ali Demir",
+    "date_of_birth": "1985-02-10",
+    "gender": "Male",
+    "ethnicity": "Turkish",
+    "contact_information": {
+      "address": "123 Mithatpaşa Caddesi, Ankara",
+      "phone_number": "+90 312 555 0123",
+      "email": "ali.demir@email.com"
+    },
+    "account_information": {
+      "bank_name": "Halkbank",
+      "account_type": "Checking",
+      "last_4_card_digits": "4567",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5226 5555 6666 4567",
+      "cvv": "789",
+      "pin": "3456"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-29",
+      "amount": "$19.25",
+      "merchant": "Online Music Streaming",
+      "location": "Konya",
+      "client_confirmation": "Client denies subscribing and was in Ankara."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-28",
+        "amount": "TRY 400",
+        "merchant": "Local Cafe",
+        "location": "Ankara"
+      },
+      {
+        "transaction_date": "2024-12-30",
+        "amount": "TRY 780",
+        "merchant": "Bookstore",
+        "location": "Ankara"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-29 10:00:00 - 123 Mithatpaşa Cd, Ankara",
+        "2024-12-29 16:15:40 - 456 Kızılay, Ankara"
+      ],
+      "multi_account_access_logs": [
+        "Accessed investment account",
+        "Frequent small transactions detected"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-01234-WX01",
+        "device_mac": "88:99:00:11:22:33"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 63,
+    "name": "Beatriz Costa",
+    "date_of_birth": "1998-07-01",
+    "gender": "Female",
+    "ethnicity": "Portuguese",
+    "contact_information": {
+      "address": "456 Rua Santa Catarina, Porto",
+      "phone_number": "+351 22 555 7890",
+      "email": "beatriz.costa@email.com"
+    },
+    "account_information": {
+      "bank_name": "Santander Totta",
+      "account_type": "Savings",
+      "last_4_card_digits": "0123",
+      "card_issuer": "Visa",
+      "full_card_number": "4445 7777 8888 0123",
+      "cvv": "987",
+      "pin": "4567"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-15",
+      "amount": "$25.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Aveiro",
+      "client_confirmation": "Client denies this charge and was in Porto."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-14",
+        "amount": "€20.50",
+        "merchant": "Local Cafe",
+        "location": "Porto"
+      },
+      {
+        "transaction_date": "2024-11-16",
+        "amount": "€46.80",
+        "merchant": "Electronics Store",
+        "location": "Porto"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-15 09:45:00 - 456 Rua Santa Catarina, Porto",
+        "2024-11-1515:00:25 - 123 Ribeira, Porto"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-12345-YZ01",
+        "device_mac": "99:00:11:22:33:44"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 64,
+    "name": "Prakash Singh",
+    "date_of_birth": "1982-10-05",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "789 Nehru Road, Hyderabad",
+      "phone_number": "+91 40 5555 2345",
+      "email": "prakash.singh@email.com"
+    },
+    "account_information": {
+      "bank_name": "IndusInd Bank",
+      "account_type": "Checking",
+      "last_4_card_digits": "2345",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5881 4444 5555 2345",
+      "cvv": "123",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-22",
+      "amount": "$35.50",
+      "merchant": "Online Bookstore",
+      "location": "Visakhapatnam",
+      "client_confirmation": "Client denies this purchase and was in Hyderabad."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-21",
+        "amount": "₹1720",
+        "merchant": "Local Cafe",
+        "location": "Hyderabad"
+      },
+      {
+        "transaction_date": "2024-12-23",
+        "amount": "₹810",
+        "merchant": "Grocery Store",
+        "location": "Hyderabad"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-22 11:30:00 - 789 Nehru Road, Hyderabad",
+        "2024-12-22 17:45:40 - 123 Banjara Hills, Hyderabad"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-23456-ZA12",
+        "device_mac": "00:11:22:33:44:55"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 65,
+    "name": "Lina Khalil",
+    "date_of_birth": "1997-02-12",
+    "gender": "Female",
+    "ethnicity": "Lebanese",
+    "contact_information": {
+      "address": "456 Hamra Street, Beirut",
+      "phone_number": "+961 1 555 4567",
+      "email": "lina.khalil@email.com"
+    },
+    "account_information": {
+      "bank_name": "BankMed",
+      "account_type": "Checking",
+      "last_4_card_digits": "8901",
+      "card_issuer": "Mastercard",
+      "full_card_number": "5992 5555 6666 8901",
+      "cvv": "543",
+      "pin": "6789"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-12",
+      "amount": "$26.75",
+      "merchant": "Online Music Streaming",
+      "location": "Jounieh",
+      "client_confirmation": "Client denies subscribing and was in Beirut."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-11",
+        "amount": "LBP 39000",
+        "merchant": "Local Cafe",
+        "location": "Beirut"
+      },
+      {
+        "transaction_date": "2024-11-13",
+        "amount": "LBP 98000",
+        "merchant": "Bookstore",
+        "location": "Beirut"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-12 10:00:00 - 456 Hamra St, Beirut",
+        "2024-11-12 16:15:40 - 123 Ashrafieh, Beirut"
+      ],
+      "multi_account_access_logs": [
+        "Accessed foreign currency account",
+        "Recovery email changed"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-34567-BC56",
+        "device_mac": "11:22:33:44:55:66"
+      }
+    }
+  }
+},
+{
+    "fraud_investigation_profile": {
+      "person_index": 67,
+      "name": "Natalia Ivanova",
+      "date_of_birth": "1991-08-20",
+      "gender": "Female",
+      "ethnicity": "Russian",
+      "contact_information": {
+        "address": "123 Arbat Street, Moscow",
+        "phone_number": "+7 495 555 9012",
+        "email": "natalia.ivanova@email.com"
+      },
+      "account_information": {
+        "bank_name": "Tinkoff Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "0123",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5882 6666 7777 0123",
+        "cvv": "987",
+        "pin": "3456"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-15",
+        "amount": "$29.75",
+        "merchant": "Online Bookstore",
+        "location": "Rostov-on-Don",
+        "client_confirmation": "Client denies this purchase and was in Moscow."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-14",
+          "amount": "RUB 1880",
+          "merchant": "Local Cafe",
+          "location": "Moscow"
+        },
+        {
+          "transaction_date": "2024-11-16",
+          "amount": "RUB 3320",
+          "merchant": "Clothing Store",
+          "location": "Moscow"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-15 09:45:00 - 123 Arbat Street, Moscow",
+          "2024-11-15 15:00:25 - 456 Tverskaya Street, Moscow"
+        ],
+        "multi_account_access_logs": [
+          "Accessed savings account",
+          "Suspicious login from new country"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-56789-DE89",
+          "device_mac": "33:44:55:66:77:88"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 68,
+      "name": "Kemal Yılmaz",
+      "date_of_birth": "1989-03-01",
+      "gender": "Male",
+      "ethnicity": "Turkish",
+      "contact_information": {
+        "address": "456 Atatürk Bulvarı, Ankara",
+        "phone_number": "+90 312 555 2345",
+        "email": "kemal.yilmaz@email.com"
+      },
+      "account_information": {
+        "bank_name": "Türkiye İş Bankası",
+        "account_type": "Checking",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5337 7777 8888 5678",
+        "cvv": "456",
+        "pin": "0123"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-12-23",
+        "amount": "$20.50",
+        "merchant": "Online Music Streaming",
+        "location": "Adana",
+        "client_confirmation": "Client denies subscribing and was in Ankara."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-12-22",
+          "amount": "TRY 420",
+          "merchant": "Local Cafe",
+          "location": "Ankara"
+        },
+        {
+          "transaction_date": "2024-12-24",
+          "amount": "TRY 790",
+          "merchant": "Bookstore",
+          "location": "Ankara"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-12-23 11:15:00 - 456 Atatürk Blv, Ankara",
+          "2024-12-23 17:30:45 - 123 Çankaya, Ankara"
+        ],
+        "multi_account_access_logs": [
+          "Accessed investment account",
+          "Frequent small transactions detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-67890-EF90",
+          "device_mac": "44:55:66:77:88:99"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 69,
+      "name": "Inês Almeida",
+      "date_of_birth": "1995-06-18",
+      "gender": "Female",
+      "ethnicity": "Portuguese",
+      "contact_information": {
+        "address": "789 Avenida da Boavista, Porto",
+        "phone_number": "+351 22 555 0123",
+        "email": "ines.almeida@email.com"
+      },
+      "account_information": {
+        "bank_name": "CGD",
+        "account_type": "Savings",
+        "last_4_card_digits": "2345",
+        "card_issuer": "Visa",
+        "full_card_number": "4114 7777 8888 2345",
+        "cvv": "123",
+        "pin": "6789"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2024-11-18",
+        "amount": "$22.99",
+        "merchant": "Online Gaming Platform",
+        "location": "Setúbal",
+        "client_confirmation": "Client denies this charge and was in Porto."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2024-11-17",
+          "amount": "€21.50",
+          "merchant": "Local Cafe",
+          "location": "Porto"
+        },
+        {
+          "transaction_date": "2024-11-19",
+          "amount": "€47.20",
+          "merchant": "Electronics Store",
+          "location": "Porto"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2024-11-18 10:00:00 - 789 Av da Boavista, Porto",
+          "2024-11-18 16:15:40 - 123 Cedofeita, Porto"
+        ],
+        "multi_account_access_logs": [
+          "Accessed stock trading account",
+          "Biometric login failed multiple times"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRWSR-78901-FG01",
+          "device_mac": "55:66:77:88:99:00"
+        }
+      }
+    }
+  },
+  {
+  "fraud_investigation_profile": {
+    "person_index": 70,
+    "name": "Rajiv Kumar",
+    "date_of_birth": "1986-05-25",
+    "gender": "Male",
+    "ethnicity": "Indian",
+    "contact_information": {
+      "address": "123 Park Street, Kolkata",
+      "phone_number": "+91 33 5555 4567",
+      "email": "rajiv.kumar@email.com"
+    },
+    "account_information": {
+      "bank_name": "Punjab National Bank",
+      "account_type": "Savings",
+      "last_4_card_digits": "6789",
+      "card_issuer": "RuPay",
+      "full_card_number": "6333 7777 8888 6789",
+      "cvv": "456",
+      "pin": "5678"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-12-02",
+      "amount": "$32.75",
+      "merchant": "Online Bookstore",
+      "location": "Jaipur",
+      "client_confirmation": "Client denies this purchase and was in Kolkata."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-12-01",
+        "amount": "₹1750",
+        "merchant": "Local Cafe",
+        "location": "Kolkata"
+      },
+      {
+        "transaction_date": "2024-12-03",
+        "amount": "₹890",
+        "merchant": "Grocery Store",
+        "location": "Kolkata"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-12-02 10:15:00 - 123 Park St, Kolkata",
+        "2024-12-02 16:30:45 - 456 Chowringhee Rd, Kolkata"
+      ],
+      "multi_account_access_logs": [
+        "Accessed fixed deposit account",
+        "IP address from unusual location"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-67890-HI01",
+        "device_mac": "77:88:99:00:11:22"
+      }
+    }
+  }
+},
+{
+  "fraud_investigation_profile": {
+    "person_index": 71,
+    "name": "Amelia Dubois",
+    "date_of_birth": "1994-09-10",
+    "gender": "Female",
+    "ethnicity": "French",
+    "contact_information": {
+      "address": "456 Rue de la Paix, Paris",
+      "phone_number": "+33 1 55 55 6789",
+      "email": "amelia.dubois@email.com"
+    },
+    "account_information": {
+      "bank_name": "Crédit Agricole",
+      "account_type": "Savings",
+      "last_4_card_digits": "2345",
+      "card_issuer": "Visa",
+      "full_card_number": "4225 8888 9999 2345",
+      "cvv": "123",
+      "pin": "2345"
+    },
+    "disputed_transaction": {
+      "transaction_date": "2024-11-19",
+      "amount": "$40.99",
+      "merchant": "Online Gaming Platform",
+      "location": "Marseille",
+      "client_confirmation": "Client denies this charge and was in Paris."
+    },
+    "recent_known_activity": [
+      {
+        "transaction_date": "2024-11-18",
+        "amount": "€25.00",
+        "merchant": "Local Cafe",
+        "location": "Paris"
+      },
+      {
+        "transaction_date": "2024-11-20",
+        "amount": "€70.50",
+        "merchant": "Electronics Store",
+        "location": "Paris"
+      }
+    ],
+    "device_and_access_metadata": {
+      "mobile_app_gps_history": [
+        "2024-11-19 10:45:00 - 456 Rue de la Paix, Paris",
+        "2024-11-19 16:00:15 - 123 Louvre, Paris"
+      ],
+      "multi_account_access_logs": [
+        "Accessed stock trading account",
+        "Biometric login failed multiple times"
+      ],
+      "device_fingerprint": {
+        "browser_id": "BRWSR-78901-IJ12",
+        "device_mac": "88:99:00:11:22:33"
+      }
+    }
+  }
+},
+{
+      "fraud_investigation_profile": {
+        "person_index": 72,
+        "name": "Kenjiro Sato",
+        "date_of_birth": "1983-02-01",
+        "gender": "Male",
+        "ethnicity": "Japanese",
+        "contact_information": {
+          "address": "123 Akihabara, Tokyo",
+          "phone_number": "+81 3 5555 7890",
+          "email": "kenjiro.sato@email.com"
+        },
+        "account_information": {
+          "bank_name": "Sumitomo Mitsui Trust Bank",
+          "account_type": "Savings",
+          "last_4_card_digits": "8901",
+          "card_issuer": "JCB",
+          "full_card_number": "3564 6666 7777 8901",
+          "cvv": "543",
+          "pin": "4567"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-26",
+          "amount": "$44.50",
+          "merchant": "Online Gaming Platform",
+          "location": "Osaka",
+          "client_confirmation": "Client denies this charge and was in Tokyo."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-12-25",
+            "amount": "¥5900",
+            "merchant": "Local Cafe",
+            "location": "Tokyo"
+          },
+          {
+            "transaction_date": "2024-12-27",
+            "amount": "¥13500",
+            "merchant": "Electronics Store",
+            "location": "Tokyo"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-12-26 11:00:00 - 123 Akihabara, Tokyo",
+            "2024-12-26 17:15:35 - 456 Ikebukuro, Tokyo"
+          ],
+          "multi_account_access_logs": [
+            "Accessed stock trading account",
+            "Unusual trading volume detected"
+          ],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-78901-IJ12",
+            "device_mac": "AA:BB:CC:DD:EE:FF"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 73,
+        "name": "Irina Volkov",
+        "date_of_birth": "1992-07-05",
+        "gender": "Female",
+        "ethnicity": "Russian",
+        "contact_information": {
+          "address": "789 Kutuzovsky Prospekt, Moscow",
+          "phone_number": "+7 495 555 0123",
+          "email": "irina.volkov@email.com"
+        },
+        "account_information": {
+          "bank_name": "Sovcombank",
+          "account_type": "Checking",
+          "last_4_card_digits": "2345",
+          "card_issuer": "Visa",
+          "full_card_number": "4991 7777 8888 2345",
+          "cvv": "123",
+          "pin": "3456"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-11-19",
+          "amount": "$28.50",
+          "merchant": "Online Bookstore",
+          "location": "Novgorod",
+          "client_confirmation": "Client denies this purchase and was in Moscow."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-11-18",
+            "amount": "RUB 1920",
+            "merchant": "Local Cafe",
+            "location": "Moscow"
+          },
+          {
+            "transaction_date": "2024-11-20",
+            "amount": "RUB 3380",
+            "merchant": "Clothing Store",
+            "location": "Moscow"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-11-19 10:00:00 - 789 Kutuzovsky Prospekt, Moscow",
+            "2024-11-19 16:15:40 - 123 Tverskaya Street, Moscow"
+          ],
+          "multi_account_access_logs": [
+            "Accessed savings account",
+            "Suspicious login from new country"
+          ],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-89012-JK23",
+            "device_mac": "BB:CC:DD:EE:FF:00"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 74,
+        "name": "Furkan Kaya",
+        "date_of_birth": "1982-06-22",
+        "gender": "Male",
+        "ethnicity": "Turkish",
+        "contact_information": {
+          "address": "123 Sakarya Caddesi, Ankara",
+          "phone_number": "+90 312 555 4567",
+          "email": "furkan.kaya@email.com"
+        },
+        "account_information": {
+          "bank_name": "Finansbank",
+          "account_type": "Checking",
+          "last_4_card_digits": "6789",
+          "card_issuer": "Mastercard",
+          "full_card_number": "5448 8888 9999 6789",
+          "cvv": "456",
+          "pin": "0123"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-24",
+          "amount": "$21.25",
+          "merchant": "Online Music Streaming",
+          "location": "Eskişehir",
+          "client_confirmation": "Client denies subscribing and was in Ankara."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-12-23",
+            "amount": "TRY 430",
+            "merchant": "Local Cafe",
+            "location": "Ankara"
+          },
+          {
+            "transaction_date": "2024-12-25",
+            "amount": "TRY 770",
+            "merchant": "Bookstore",
+            "location": "Ankara"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-12-24 11:30:00 - 123 Sakarya Cd, Ankara",
+            "2024-12-24 17:45:40 - 456 Kızılay, Ankara"
+          ],
+          "multi_account_access_logs": [
+            "Accessed investment account",
+            "Frequent small transactions detected"
+          ],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-90123-KL34",
+            "device_mac": "CC:DD:EE:FF:00:11"
+          }
+        }
+      }
+    },
+    {
+        "fraud_investigation_profile": {
+          "person_index": 75,
+          "name": "Javier Rodriguez",
+          "date_of_birth": "1988-01-15",
+          "gender": "Male",
+          "ethnicity": "Hispanic",
+          "contact_information": {
+            "address": "123 Maple Drive, Anytown, USA 12345",
+            "phone_number": "(555) 123-4567",
+            "email": "javier.rodriguez@email.com"
+          },
+          "account_information": {
+            "bank_name": "Citywide Bank",
+            "account_type": "Savings",
+            "last_4_card_digits": "9876",
+            "card_issuer": "Mastercard",
+            "full_card_number": "5123 4567 8901 9876",
+            "cvv": "123",
+            "pin": "8765"
+          },
+          "disputed_transaction": {
+            "transaction_date": "2025-04-29",
+            "amount": "$120.00",
+            "merchant": "Tech Gadgets Online",
+            "location": "Seattle, WA",
+            "client_confirmation": "Client denies making this purchase and was in Anytown."
+          },
+          "recent_known_activity": [
+            {
+              "transaction_date": "2025-04-28",
+              "amount": "$45.99",
+              "merchant": "Hardware Store",
+              "location": "Anytown, USA"
+            },
+            {
+              "transaction_date": "2025-04-30",
+              "amount": "$10.50",
+              "merchant": "Local Bookstore",
+              "location": "Anytown, USA"
+            }
+          ],
+          "device_and_access_metadata": {
+            "mobile_app_gps_history": [
+              "2025-04-29 09:00:00 - 100 Main St, Anytown, USA",
+              "2025-04-29 13:45:00 - 200 Elm Ave, Anytown, USA"
+            ],
+            "multi_account_access_logs": [
+              "Accessed investment account",
+              "Login from new mobile device"
+            ],
+            "device_fingerprint": {
+              "browser_id": "BRW-7890-DEF2",
+              "device_mac": "11:BB:22:CC:33:DD"
+            }
+          }
+        }
+      },
+      {
+        "fraud_investigation_profile": {
+          "person_index": 76,
+          "name": "Aisha Khan",
+          "date_of_birth": "1995-07-01",
+          "gender": "Female",
+          "ethnicity": "South Asian",
+          "contact_information": {
+            "address": "456 Oak Street, Anytown, USA 12345",
+            "phone_number": "(555) 555-1122",
+            "email": "aisha.khan@email.com"
+          },
+          "account_information": {
+            "bank_name": "Community Credit Union",
+            "account_type": "Checking",
+            "last_4_card_digits": "2345",
+            "card_issuer": "Visa",
+            "full_card_number": "4111 2222 3333 2345",
+            "cvv": "456",
+            "pin": "3456"
+          },
+          "disputed_transaction": {
+            "transaction_date": "2025-04-30",
+            "amount": "$39.99",
+            "merchant": "Online Clothing Retailer",
+            "location": "Los Angeles, CA",
+            "client_confirmation": "Client denies this purchase and confirms she was in Anytown."
+          },
+          "recent_known_activity": [
+            {
+              "transaction_date": "2025-04-29",
+              "amount": "$22.75",
+              "merchant": "Local Grocery Store",
+              "location": "Anytown, USA"
+            },
+            {
+              "transaction_date": "2025-05-01",
+              "amount": "$8.99",
+              "merchant": "Streaming Service",
+              "location": "Anytown, USA"
+            }
+          ],
+          "device_and_access_metadata": {
+            "mobile_app_gps_history": [
+              "2025-04-30 11:15:00 - 300 Pine Ln, Anytown, USA",
+              "2025-04-30 15:00:00 - 400 Willow Dr, Anytown, USA"
+            ],
+            "multi_account_access_logs": [
+              "Accessed auto loan account",
+              "Password reset initiated"
+            ],
+            "device_fingerprint": {
+              "browser_id": "BRW-1234-GHI5",
+              "device_mac": "22:CC:44:AA:66:BB"
+            }
+          }
+        }
+      },
+      {
+        "fraud_investigation_profile": {
+          "person_index":77,
+          "name": "Robert Chen",
+          "date_of_birth": "1979-03-20",
+      "gender": "Male",
+      "ethnicity": "Asian",
+      "contact_information": {
+        "address": "789 Pine Lane, Anytown, USA 12345",
+        "phone_number": "(555) 333-9900",
+        "email": "robert.chen@email.com"
+      },
+      "account_information": {
+        "bank_name": "State Savings Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "6789",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5555 1111 2222 6789",
+        "cvv": "789",
+        "pin": "9012"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2025-05-01",
+        "amount": "$89.50",
+        "merchant": "Electronics Depot",
+        "location": "Austin, TX",
+        "client_confirmation": "Client denies being in Austin and did not authorize this charge."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2025-04-30",
+          "amount": "$18.50",
+          "merchant": "Coffee Shop",
+          "location": "Anytown, USA"
+        },
+        {
+          "transaction_date": "2025-05-02",
+          "amount": "$62.00",
+          "merchant": "Online Bookseller",
+          "location": "Anytown, USA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2025-05-01 12:30:00 - 500 Maple Dr, Anytown, USA",
+          "2025-05-01 16:15:00 - 600 Sycamore Ln, Anytown, USA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed home equity line of credit",
+          "Unusual login time detected"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRW-9876-JKL8",
+          "device_mac": "33:EE:55:AA:77:BB"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 78,
+      "name": "Maria Garcia",
+      "date_of_birth": "1982-06-05",
+      "gender": "Female",
+      "ethnicity": "Hispanic",
+      "contact_information": {
+        "address": "101 Elm Avenue, Anytown, USA 12345",
+        "phone_number": "(555) 777-2211",
+        "email": "maria.garcia@email.com"
+      },
+      "account_information": {
+        "bank_name": "Federal Trust Bank",
+        "account_type": "Checking",
+        "last_4_card_digits": "0123",
+        "card_issuer": "Visa",
+        "full_card_number": "4000 1111 2222 0123",
+        "cvv": "101",
+        "pin": "0000"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2025-05-02",
+        "amount": "$159.00",
+        "merchant": "Luxury Goods Online",
+        "location": "New York, NY",
+        "client_confirmation": "Client denies making this purchase and was in Anytown."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2025-05-01",
+          "amount": "$29.99",
+          "merchant": "Department Store",
+          "location": "Anytown, USA"
+        },
+        {
+          "transaction_date": "2025-05-03",
+          "amount": "$12.75",
+          "merchant": "Local Bakery",
+          "location": "Anytown, USA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2025-05-02 08:45:00 - 700 Oak St, Anytown, USA",
+          "2025-05-02 14:00:00 - 800 Elm Ave, Anytown, USA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed credit card account",
+          "Email address updated recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRW-2345-HIJ6",
+          "device_mac": "44:AA:88:CC:22:DD"
+        }
+      }
+    }
+  },
+  {
+    "fraud_investigation_profile": {
+      "person_index": 79,
+      "name": "David Lee",
+      "date_of_birth": "1991-12-10",
+      "gender": "Male",
+      "ethnicity": "Asian",
+      "contact_information": {
+        "address": "222 Oak Avenue, Anytown, USA 12345",
+        "phone_number": "(555) 888-5544",
+        "email": "david.lee@email.com"
+      },
+      "account_information": {
+        "bank_name": "United Community Bank",
+        "account_type": "Savings",
+        "last_4_card_digits": "5678",
+        "card_issuer": "Mastercard",
+        "full_card_number": "5432 9876 5432 5678",
+        "cvv": "321",
+        "pin": "6543"
+      },
+      "disputed_transaction": {
+        "transaction_date": "2025-05-03",
+        "amount": "$65.75",
+        "merchant": "Gaming World Online",
+        "location": "Las Vegas, NV",
+        "client_confirmation": "Client denies this transaction and confirms he was in Anytown."
+      },
+      "recent_known_activity": [
+        {
+          "transaction_date": "2025-05-02",
+          "amount": "$31.20",
+          "merchant": "Sporting Goods Store",
+          "location": "Anytown, USA"
+        },
+        {
+          "transaction_date": "2025-05-04",
+          "amount": "$9.50",
+          "merchant": "Local Coffee House",
+          "location": "Anytown, USA"
+        }
+      ],
+      "device_and_access_metadata": {
+        "mobile_app_gps_history": [
+          "2025-05-03 13:00:00 - 900 Pine St, Anytown, USA",
+          "2025-05-03 17:15:00 - 1000 Oak Ave, Anytown, USA"
+        ],
+        "multi_account_access_logs": [
+          "Accessed line of credit",
+          "Phone number changed recently"
+        ],
+        "device_fingerprint": {
+          "browser_id": "BRW-6543-LMN7",
+          "device_mac": "55:BB:99:CC:11:AA"
+        }
+      }
+    }
+  },
+{
+      "fraud_investigation_profile": {
+        "person_index": 80,
+        "name": "Priya Sharma",
+        "date_of_birth": "1988-07-15",
+        "gender": "Female",
+        "ethnicity": "South Asian",
+        "contact_information": {
+          "address": "789 Oak Avenue, Sunnyvale, CA 94087",
+          "phone_number": "(408) 555-9876",
+          "email": "priya.sharma@email.com"
+        },
+        "account_information": {
+          "bank_name": "Wells Fargo",
+          "account_type": "Savings",
+          "last_4_card_digits": "5678",
+          "card_issuer": "Mastercard",
+          "full_card_number": "5123 4567 8901 5678",
+          "cvv": "987",
+          "pin": "2109"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-11-20",
+          "amount": "$155.50",
+          "merchant": "Global Travel Agency",
+          "location": "New York, NY",
+          "client_confirmation": "Client states they did not authorize this travel booking and were in California on that date."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-11-19",
+            "amount": "$30.25",
+            "merchant": "Local Diner",
+            "location": "Sunnyvale, CA"
+          },
+          {
+            "transaction_date": "2024-11-21",
+            "amount": "$75.00",
+            "merchant": "Online Bookstore",
+            "location": "Online"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-11-20 10:15:30 - 123 Times Square, New York, NY",
+            "2024-11-20 14:00:45 - 456 Park Avenue, New York, NY"
+          ],
+          "multi_account_access_logs": [
+            "Accessed joint investment account with user ID 7777 (sibling)"
+          ],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-10101-FF11",
+            "device_mac": "0A:1B:2C:3D:4E:5F"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 81,
+        "name": "Kenji Tanaka",
+        "date_of_birth": "1993-03-10",
+        "gender": "Male",
+        "ethnicity": "East Asian",
+        "contact_information": {
+          "address": "321 Pine Street, Mountain View, CA 94043",
+          "phone_number": "(650) 555-2233",
+          "email": "kenji.tanaka@email.com"
+        },
+        "account_information": {
+          "bank_name": "Chase",
+          "account_type": "Checking",
+          "last_4_card_digits": "2345",
+          "card_issuer": "Visa",
+          "full_card_number": "4876 5432 1098 2345",
+          "cvv": "654",
+          "pin": "9876"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-11-25",
+          "amount": "$79.99",
+          "merchant": "GameStop",
+          "location": "Online",
+          "client_confirmation": "Client denies making this online purchase and does not recognize the merchant."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-11-24",
+            "amount": "$15.80",
+            "merchant": "Coffee Shop",
+            "location": "Mountain View, CA"
+          },
+          {
+            "transaction_date": "2024-11-26",
+            "amount": "$110.00",
+            "merchant": "Electronics Store",
+            "location": "Santa Clara, CA"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-11-25 19:30:00 - IP address location: Unknown"
+          ],
+          "multi_account_access_logs": [],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-22222-CH99",
+            "device_mac": "F0:E1:D2:C3:B4:A5"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 82,
+        "name": "Isabelle Dubois",
+        "date_of_birth": "1985-05-22",
+        "gender": "Female",
+        "ethnicity": "European",
+        "contact_information": {
+          "address": "901 Cherry Street, Palo Alto, CA 94301",
+          "phone_number": "(650) 555-4567",
+          "email": "isabelle.dubois@email.com"
+        },
+        "account_information": {
+          "bank_name": "Bank of America",
+          "account_type": "Checking",
+          "last_4_card_digits": "9012",
+          "card_issuer": "Mastercard",
+          "full_card_number": "5555 1234 5678 9012",
+          "cvv": "234",
+          "pin": "5678"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-01",
+          "amount": "$345.67",
+          "merchant": "Luxury Goods Online",
+          "location": "Online",
+          "client_confirmation": "Client denies this purchase and states they never visit luxury goods websites."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-11-30",
+            "amount": "$62.80",
+            "merchant": "Grocery Store",
+            "location": "Palo Alto, CA"
+          },
+          {
+            "transaction_date": "2024-12-02",
+            "amount": "$29.99",
+            "merchant": "Streaming Service",
+            "location": "Online"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [],
+          "multi_account_access_logs": [
+            "Accessed mortgage account"
+          ],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-33333-SF22",
+            "device_mac": "1B:2C:3D:4E:5F:6A"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 83,
+        "name": "Javier Rodriguez",
+        "date_of_birth": "1998-11-05",
+        "gender": "Male",
+        "ethnicity": "Hispanic",
+        "contact_information": {
+          "address": "456 Willow Drive, San Jose, CA 95123",
+          "phone_number": "(408) 555-6789",
+          "email": "javier.rodriguez@email.com"
+        },
+        "account_information": {
+          "bank_name": "Citibank",
+          "account_type": "Savings",
+          "last_4_card_digits": "6789",
+          "card_issuer": "Visa",
+          "full_card_number": "4000 9876 5432 6789",
+          "cvv": "543",
+          "pin": "8765"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-05",
+          "amount": "$99.00",
+          "merchant": "Online Gaming Platform",
+          "location": "Ireland",
+          "client_confirmation": "Client denies any activity on gaming platforms and has never been to Ireland."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-12-04",
+            "amount": "$22.50",
+            "merchant": "Fast Food Restaurant",
+            "location": "San Jose, CA"
+          },
+          {
+            "transaction_date": "2024-12-06",
+            "amount": "$55.75",
+            "merchant": "Movie Theater",
+            "location": "San Jose, CA"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-12-05 21:00:10 - IP address location: Ireland"
+          ],
+          "multi_account_access_logs": [],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-44444-GC33",
+            "device_mac": "2C:3D:4E:5F:6A:7B"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 84,
+        "name": "Aisha Khan",
+        "date_of_birth": "1982-09-28",
+        "gender": "Female",
+        "ethnicity": "South Asian",
+        "contact_information": {
+          "address": "567 Blossom Lane, Santa Clara, CA 95050",
+          "phone_number": "(669) 555-0123",
+          "email": "aisha.khan@email.com"
+        },
+        "account_information": {
+          "bank_name": "US Bank",
+          "account_type": "Checking",
+          "last_4_card_digits": "0123",
+          "card_issuer": "Mastercard",
+          "full_card_number": "5432 1098 7654 0123",
+          "cvv": "876",
+          "pin": "3210"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-10",
+          "amount": "$210.50",
+          "merchant": "Jewelry Store",
+          "location": "Chicago, IL",
+          "client_confirmation": "Client denies purchasing jewelry and was in California on that day."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-12-09",
+            "amount": "$45.99",
+            "merchant": "Clothing Retailer",
+            "location": "Santa Clara, CA"
+          },
+          {
+            "transaction_date": "2024-12-11",
+            "amount": "$18.75",
+            "merchant": "Local Cafe",
+            "location": "Santa Clara, CA"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [
+            "2024-12-10 14:30:00 - 123 Michigan Ave, Chicago, IL"
+          ],
+          "multi_account_access_logs": [],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-55555-MZ44",
+            "device_mac": "3A:4B:5C:6D:7E:8F"
+          }
+        }
+      }
+    },
+    {
+      "fraud_investigation_profile": {
+        "person_index": 85,
+        "name": "Ethan Miller",
+        "date_of_birth": "1995-01-30",
+        "gender": "Male",
+        "ethnicity": "European",
+        "contact_information": {
+          "address": "678 Pine Lane, Fremont, CA 94538",
+          "phone_number": "(510) 555-3456",
+          "email": "ethan.miller@email.com"
+        },
+        "account_information": {
+          "bank_name": "Chase",
+          "account_type": "Checking",
+          "last_4_card_digits": "3456",
+          "card_issuer": "Visa",
+          "full_card_number": "4111 2222 3333 3456",
+          "cvv": "765",
+          "pin": "4321"
+        },
+        "disputed_transaction": {
+          "transaction_date": "2024-12-15",
+          "amount": "$49.99",
+          "merchant": "Antivirus Software Online",
+          "location": "Online",
+          "client_confirmation": "Client states they already have antivirus software and did not renew or purchase a new one."
+        },
+        "recent_known_activity": [
+          {
+            "transaction_date": "2024-12-14",
+            "amount": "$9.50",
+            "merchant": "Coffee Shop",
+            "location": "Fremont, CA"
+          },
+          {
+            "transaction_date": "2024-12-16",
+            "amount": "$68.00",
+            "merchant": "Hardware Store",
+            "location": "Hayward, CA"
+          }
+        ],
+        "device_and_access_metadata": {
+          "mobile_app_gps_history": [],
+          "multi_account_access_logs": [],
+          "device_fingerprint": {
+            "browser_id": "BRWSR-66666-OP55",
+            "device_mac": "4D:5E:6F:7A:8B:9C"
+          }
+        }
+      }
+    }
+]
